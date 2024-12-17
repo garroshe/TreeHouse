@@ -49,184 +49,77 @@ menuButton.addEventListener('click', () => {
 });
 
 //list descr
-const tops = document.getElementById('tops');
-const listTops = document.querySelector('.tops');
-const bottoms = document.getElementById('bottoms');
-const Listbottoms = document.querySelector('.bottoms');
-const roompers = document.getElementById('roompers');
-const Listroompers = document.querySelector('.roompers');
-const hats = document.getElementById('hats');
-const Listhats = document.querySelector('.hats');
-const shopAll = document.getElementById('shopAll');
-const ListshopAll = document.querySelector('.shopAll');
+function toggleVisibility(activeElement, elements) {
+    elements.forEach(el => el.classList.remove('top_visibetly'));
+    activeElement.classList.add('top_visibetly');
+}
+
+const buttons = [
+    { id: 'tops', listClass: 'tops' },
+    { id: 'bottoms', listClass: 'bottoms' },
+    { id: 'roompers', listClass: 'roompers' },
+    { id: 'hats', listClass: 'hats' },
+    { id: 'shopAll', listClass: 'shopAll' }
+];
 
 
-tops.addEventListener('click', () => {
-    listTops.classList.add('top_visibetly');
-    Listbottoms.classList.remove('top_visibetly');
-    Listroompers.classList.remove('top_visibetly');
-    Listhats.classList.remove('top_visibetly');
-    ListshopAll.classList.remove('top_visibetly');
+const allLists = buttons.map(button => document.querySelector(`.${button.listClass}`));
 
+buttons.forEach(({ id, listClass }) => {
+    document.getElementById(id).addEventListener('click', () => {
+        const targetList = document.querySelector(`.${listClass}`);
+        toggleVisibility(targetList, allLists);
+    });
 });
 
+const items = [
+    { id: 'shirts', src: 'img/shirts_img.jpg', text: 'plaid shirt' },
+    { id: 't-shirts', src: 'img/t-shirts_img.jpg', text: 'mossimo T-shirt' },
+    { id: 'bottom', src: 'img/bottoms_img.jpg', text: 'rubber boots' },
+    { id: 'sneakers', src: 'img/sneakers.jpg', text: 'Nike sneakers' },
+    { id: 'roomper', src: 'img/roomper.jpg', text: 'Jumpsuite' },
+    { id: 'pants', src: 'img/pants.jpg', text: 'regular jeens' },
+    { id: 'shorts', src: 'img/shorts.jpg', text: 'baby shorts' },
+    { id: 'hat', src: 'img/hats.jpg', text: 'Baby hats' },
+    { id: 'all', src: 'img/all.jpg', text: 'All clothes' }
+];
 
-
-
-bottoms.addEventListener('click', () => {
-    Listbottoms.classList.add('top_visibetly');
-    listTops.classList.remove('top_visibetly');
-    Listroompers.classList.remove('top_visibetly');
-    Listhats.classList.remove('top_visibetly');
-    ListshopAll.classList.remove('top_visibetly');
-
-});
-
-
-
-
-roompers.addEventListener('click', () => {
-    Listroompers.classList.add('top_visibetly');
-    listTops.classList.remove('top_visibetly');
-    Listbottoms.classList.remove('top_visibetly');
-    Listhats.classList.remove('top_visibetly');
-    ListshopAll.classList.remove('top_visibetly');
-
-});
-
-hats.addEventListener('click', () => {
-    Listhats.classList.add('top_visibetly');
-    listTops.classList.remove('top_visibetly');
-    Listbottoms.classList.remove('top_visibetly');
-    Listroompers.classList.remove('top_visibetly');
-    ListshopAll.classList.remove('top_visibetly');
-
-});
-
-shopAll.addEventListener('click', () => {
-    ListshopAll.classList.add('top_visibetly');
-    listTops.classList.remove('top_visibetly');
-    Listbottoms.classList.remove('top_visibetly');
-    Listroompers.classList.remove('top_visibetly');
-    Listhats.classList.remove('top_visibetly');
-
-});
-
-const shirts = document.getElementById('shirts');
-const Tshirts = document.getElementById('t-shirts');
-const bottom = document.getElementById('bottom');
-const sneakers = document.getElementById('sneakers');
-const roomper = document.getElementById('roomper');
-const pants = document.getElementById('pants');
-const shorts = document.getElementById('shorts');
-const hat = document.getElementById('hat');
-const all = document.getElementById('all');
-
-const nameClouthes = document.querySelector('.shop_img_descr');
 const shopImg = document.querySelector('.shop_img');
+const nameClouthes = document.querySelector('.shop_img_descr');
 
-shirts.addEventListener('click', () => {
-    shopImg.src = 'img/shirts_img.jpg';
-    nameClouthes.textContent = 'plaid shirt';
+items.forEach(({ id, src, text }) => {
+    document.getElementById(id).addEventListener('click', () => {
+        shopImg.src = src;
+        nameClouthes.textContent = text;
+    });
 });
 
-Tshirts.addEventListener('click', () => {
-    shopImg.src = 'img/t-shirts_img.jpg';
-    nameClouthes.textContent = 'mossimo T-shirt';
-});
-
-bottom.addEventListener('click', () => {
-    shopImg.src = 'img/bottoms_img.jpg';
-    nameClouthes.textContent = 'rubber boots';
-});
-
-sneakers.addEventListener('click', () => {
-    shopImg.src = 'img/sneakers.jpg';
-    nameClouthes.textContent = 'Nike sneakers';
-});
-
-roomper.addEventListener('click', () => {
-    shopImg.src = 'img/roomper.jpg';
-    nameClouthes.textContent = 'Jumpsuite';
-});
-
-pants.addEventListener('click', () => {
-    shopImg.src = 'img/pants.jpg';
-    nameClouthes.textContent = 'regular jeens';
-});
-
-shorts.addEventListener('click', () => {
-    shopImg.src = 'img/shorts.jpg';
-    nameClouthes.textContent = 'baby shorts';
-});
-
-hat.addEventListener('click', () => {
-    shopImg.src = 'img/hats.jpg';
-    nameClouthes.textContent = 'Baby hats';
-});
-
-all.addEventListener('click', () => {
-    shopImg.src = 'img/all.jpg';
-    nameClouthes.textContent = 'All clothes';
-});
 
 
 
 //tabs 
 const catalog = document.querySelector('.shopping__img');
-const shopBot = document.getElementById('shop_bot');
-const shopTop = document.getElementById('shop_top');
-const shopRoom = document.getElementById('shop_room');
-const shopHat = document.getElementById('shop_hat');
-const shopAlls = document.getElementById('shop_all');
 
+const shopItems = [
+    { id: 'shop_top', img: 'img/shopping_img.jpg' },
+    { id: 'shop_bot', img: 'img/catalog_bottoms.jpg' },
+    { id: 'shop_room', img: 'img/catalog_roompers.jpg' },
+    { id: 'shop_hat', img: 'img/catalog_hats.jpg' },
+    { id: 'shop_all', img: 'img/catalog_alls.jpg' }
+];
 
+function updateActive(itemId, imgSrc) {
+    shopItems.forEach(({ id }) => {
+        const button = document.getElementById(id);
+        button.classList.toggle('shopping__active__item', id === itemId);
+    });
+    catalog.src = imgSrc;
+}
 
-shopTop.addEventListener('click', () => {
-    shopTop.classList.add('shopping__active__item');
-    shopBot.classList.remove('shopping__active__item');
-    shopRoom.classList.remove('shopping__active__item');
-    shopHat.classList.remove('shopping__active__item');
-    shopAlls.classList.remove('shopping__active__item');
-    catalog.src = 'img/shopping_img.jpg';
-
+shopItems.forEach(({ id, img }) => {
+    document.getElementById(id).addEventListener('click', () => updateActive(id, img));
 });
 
-shopBot.addEventListener('click', () => {
-    shopBot.classList.add('shopping__active__item');
-    shopTop.classList.remove('shopping__active__item');
-    shopRoom.classList.remove('shopping__active__item');
-    shopHat.classList.remove('shopping__active__item');
-    shopAlls.classList.remove('shopping__active__item');
-    catalog.src = 'img/catalog_bottoms.jpg';
-});
-
-shopRoom.addEventListener('click', () => {
-    shopRoom.classList.add('shopping__active__item');
-    shopTop.classList.remove('shopping__active__item');
-    shopBot.classList.remove('shopping__active__item');
-    shopHat.classList.remove('shopping__active__item');
-    shopAlls.classList.remove('shopping__active__item');
-    catalog.src = 'img/catalog_roompers.jpg';
-});
-
-shopHat.addEventListener('click', () => {
-    shopHat.classList.add('shopping__active__item');
-    shopTop.classList.remove('shopping__active__item');
-    shopBot.classList.remove('shopping__active__item');
-    shopRoom.classList.remove('shopping__active__item');
-    shopAlls.classList.remove('shopping__active__item');
-    catalog.src = 'img/catalog_hats.jpg';
-});
-
-shopAlls.addEventListener('click', () => {
-    shopAlls.classList.add('shopping__active__item');
-    shopTop.classList.remove('shopping__active__item');
-    shopBot.classList.remove('shopping__active__item');
-    shopRoom.classList.remove('shopping__active__item');
-    shopHat.classList.remove('shopping__active__item');
-    catalog.src = 'img/catalog_alls.jpg';
-});
 
 
 //modal window
@@ -270,6 +163,45 @@ $(document).ready(function () {
         slidesToShow: 3,
 
     });
+
+
 });
+
+
+const cloth1 = document.querySelector('.clothes1');
+const viewproducts1 = document.querySelector('.view-products1');
+
+const cloth2 = document.querySelector('.clothes2');
+const viewproducts2 = document.querySelector('.view-products2');
+
+const cloth3 = document.querySelector('.clothes3');
+const viewproducts3 = document.querySelector('.view-products3');
+
+const cloth4 = document.querySelector('.clothes4');
+const viewproducts4 = document.querySelector('.view-products4');
+
+const cloth5 = document.querySelector('.clothes5');
+const viewproducts5 = document.querySelector('.view-products5');
+
+viewproducts1.addEventListener('click', () => {
+    cloth1.classList.toggle('slide_active');
+});
+
+viewproducts2.addEventListener('click', () => {
+    cloth2.classList.toggle('slide_active');
+});
+
+viewproducts3.addEventListener('click', () => {
+    cloth3.classList.toggle('slide_active');
+});
+
+viewproducts4.addEventListener('click', () => {
+    cloth4.classList.toggle('slide_active');
+});
+
+viewproducts5.addEventListener('click', () => {
+    cloth5.classList.toggle('slide_active');
+});
+
 
 
