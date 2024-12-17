@@ -24,6 +24,7 @@
 
 body {
     position: relative;
+    background: rgb(245, 245, 245);
 }
 
 
@@ -37,3 +38,4 @@ body {
 @import 'blocks/action';
 @import 'blocks/carusel';
 @import 'blocks/slider';
+@import 'blocks/trust';
