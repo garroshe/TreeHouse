@@ -1,0 +1,39 @@
+@import 'libs/bootstrap-reboot.min';
+
+
+
+@font-face {
+    font-family: 'GT-Cinetype-Trial-Regular';
+    src: url('../fonts/GT-Cinetype-Trial-Regular.otf') format('truetype');
+
+}
+
+@import 'base/variables';
+
+* {
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    width: 1234px;
+    margin: 0 auto;
+}
+
+body {
+    position: relative;
+}
+
+
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/welcome';
+@import 'blocks/care';
+@import 'blocks/menu';
+@import 'blocks/discount';
+@import 'blocks/shopping';
+@import 'blocks/action';
+@import 'blocks/carusel';
+@import 'blocks/slider';

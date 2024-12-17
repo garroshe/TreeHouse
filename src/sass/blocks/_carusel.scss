@@ -1,0 +1,39 @@
+.carusel {
+    position: relative;
+    padding: 0 0 100px 0;
+
+    &__header {
+        color: $green-color;
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: right;
+        text-transform: uppercase;
+        margin-bottom: 160px;
+    }
+
+    &__boy {
+        position: absolute;
+        top: -129px;
+        right: 675px;
+    }
+
+    &__subtitle {
+        color: $green-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        color: $green-color;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: left;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+}

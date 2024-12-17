@@ -1,0 +1,62 @@
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.carousel {
+    padding: 0 10px;
+}
+
+.carousel .slick-arrow {
+    position: absolute;
+    top: 320px;
+    font-size: 0;
+    width: 32px;
+    height: 32px;
+    z-index: 20;
+    border: none;
+    outline: none;
+}
+
+.carousel .slick-arrow.slick-prev {
+    right: 157px;
+    background: transparent;
+    background-image: url('../../icons/rowr.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel .slick-arrow.slick-next {
+    right: 105px;
+    background: transparent;
+    background-image: url('../../icons/rowl.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+        list-style: none;
+    }
+
+    button {
+        font-size: 0;
+        width: 100px;
+        height: 2px;
+        background-color: #50735F4D;
+        opacity: 0.3;
+    }
+}
+
+.carousel .slick-dots li.slick-active button {
+    background-color: $green-color;
+}

@@ -1,0 +1,92 @@
+.welcome {
+    padding: 120px 0 224px 160px;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 532px 279px;
+        gap: 40px;
+        justify-content: center;
+
+
+    }
+
+    &__images {
+        position: relative;
+
+
+
+        &__img1 {
+            position: absolute;
+            height: auto;
+            z-index: 1;
+            top: 22px;
+            left: 7px;
+        }
+
+        &__img2 {
+            position: absolute;
+            z-index: 3;
+            top: 224px;
+            right: 318px;
+        }
+
+        &__img3 {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            right: 0;
+        }
+
+        &__img4 {
+            position: absolute;
+            z-index: 5;
+            top: 394px;
+            left: 78px;
+        }
+    }
+
+    &__descr {
+        &__subtitle {
+            color: $green-color;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 100%;
+            text-transform: uppercase;
+            margin-top: 44px;
+            margin-bottom: 16px;
+        }
+
+        &__title {
+            font-family: "Poppins", serif;
+            font-size: 48px;
+            color: $green-color;
+            font-weight: 400;
+            line-height: 100%;
+        }
+
+        &__text {
+            color: $green-color;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 140%;
+            margin-top: 16px;
+            margin-bottom: 48px;
+        }
+    }
+
+    .button__main {
+        box-sizing: border-box;
+        border: 2px solid $green-color;
+        background-color: transparent;
+        color: $green-color;
+    }
+
+    .button__return {
+        box-sizing: border-box;
+        border: 2px solid $green-color;
+        background-color: transparent;
+        transform: rotate(90deg);
+
+    }
+
+}

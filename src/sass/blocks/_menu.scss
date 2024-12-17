@@ -1,0 +1,189 @@
+.menu {
+    padding: 20px 103px 63px 103px;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 10;
+    background-color: $green-color;
+    height: 100vh;
+    width: 100%;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__close {
+        color: $white-color;
+        display: flex;
+        align-items: center;
+        gap: 19px;
+        cursor: pointer;
+
+        span {
+            display: block;
+            background-color: $white-color;
+            height: 24px;
+            width: 2px;
+
+        }
+    }
+
+    &__dagger {
+        position: relative;
+
+
+        .first {
+            transform: rotate(45deg);
+        }
+
+        .second {
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: rotate(-45deg);
+        }
+    }
+
+    .main_list {
+        list-style-type: none;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 100%;
+        margin-top: 35px;
+
+
+
+        li {
+            margin-bottom: 31px;
+
+
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: $white-color;
+
+            &:hover {
+                border-bottom: 2px solid $white-color;
+                width: 100%;
+            }
+        }
+    }
+
+    &__info {
+        display: flex;
+        gap: 54px;
+        margin-top: 120px;
+
+
+        a {
+            color: $white-color;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 100%;
+
+        }
+
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .wrapper__position {
+        position: relative;
+        margin-top: 66px;
+    }
+
+    .position {
+        position: absolute;
+        top: 282px;
+        left: -165px;
+        z-index: 3;
+    }
+}
+
+.menu__hide {
+    transition: 2s ease;
+    position: absolute;
+    left: -100%;
+}
+
+.menu__visible {
+    left: 0;
+    transition: 2s ease;
+}
+
+.list_descr {
+    position: absolute;
+    visibility: hidden;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 100%;
+    top: 130px;
+    left: 500px;
+
+    img {
+        position: absolute;
+        top: 16px;
+        left: -170px;
+        transform: rotate(270deg);
+        width: 26px;
+    }
+
+    li {
+        list-style-type: none;
+        margin-bottom: 20px;
+
+        a {
+            text-decoration: none;
+            color: $white-color;
+
+            &:hover {
+                border-bottom: 2px solid $white-color;
+                width: 100%;
+            }
+
+        }
+    }
+}
+
+.shop_img_descr {
+    color: $white-color;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.bottoms {
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+
+.roompers {
+    margin-top: 140px;
+    text-transform: uppercase;
+}
+
+.hats {
+    margin-top: 210px;
+    text-transform: uppercase;
+}
+
+.shopAll {
+    margin-top: 280px;
+    text-transform: uppercase;
+}
+
+.top_visibetly {
+    visibility: visible;
+}
