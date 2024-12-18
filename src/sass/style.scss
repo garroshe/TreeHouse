@@ -27,6 +27,10 @@ body {
     background: rgb(245, 245, 245);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 @import 'blocks/promo';
 @import 'blocks/buttons';
@@ -39,3 +43,4 @@ body {
 @import 'blocks/carusel';
 @import 'blocks/slider';
 @import 'blocks/trust';
+@import 'blocks/footer';
