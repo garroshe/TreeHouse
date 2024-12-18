@@ -4,6 +4,7 @@
     height: 400px;
     padding: 44px 0 44px 0;
     background-color: $green-color;
+    overflow: hidden;
 
     &__wrapper {
         display: flex;
@@ -99,6 +100,24 @@
         position: absolute;
         bottom: 32px;
         right: 104px;
+    }
+
+    &__leaf-left {
+        position: absolute;
+        left: 0;
+        top: -60px;
+    }
+
+    &__leaf-center {
+        position: absolute;
+        bottom: -10px;
+        left: 490px;
+    }
+
+    &__leaf-rigth {
+        position: absolute;
+        right: 0;
+        top: 80px;
     }
 
 }
