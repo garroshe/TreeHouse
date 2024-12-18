@@ -51,6 +51,155 @@
         }
     }
 
+    .shopping {
+        padding: 0 0 161px 0;
+
+        &__img {
+            width: 100%;
+        }
+
+        &__items {
+            gap: 40px;
+        }
+    }
+
+    .discount__modal {
+        width: 630px;
+        height: 330px;
+        top: 22%;
+        grid-template-columns: 281px 349px;
+    }
+
+    .modal__humen {
+        img {
+            height: 330px;
+        }
+    }
+
+    .discount__info {
+        padding: 10px 20px 0 20px;
+    }
+
+    .discount__header {
+        img {
+            height: 50px;
+        }
+    }
+
+    .discount__title {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .discount__procent {
+        width: 90px;
+        top: -42px;
+        right: 57px;
+    }
+
+
+    .discount__text {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+    .discount__descr {
+        input {
+            width: 300px;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 300px;
+            height: 40px;
+        }
+    }
+
+    .action {
+        &__wrapper {
+            grid-template-columns: 496px 496px;
+
+            &__descr {
+                width: 496px;
+                height: 386px;
+                padding: 85px 120px 115px 120px
+            }
+
+            &__img {
+                img {
+                    width: 496px;
+                }
+            }
+        }
+
+        &__button {
+            margin: 20px auto 0 auto;
+        }
+
+        &__position {
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -230px;
+        }
+
+        &__descr {
+            right: 50px;
+        }
+
+        &__procent {
+            height: 50px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        &__game {
+            height: 65px;
+        }
+    }
+
+    .carusel {
+
+        &__header {
+            font-size: 60px;
+        }
+
+        &__boy {
+            right: 376px;
+            width: 140px;
+            top: -125px;
+        }
+
+        &__title {
+            font-size: 35px;
+            margin-top: 5px;
+        }
+
+        &__subtitle {
+            font-size: 12px;
+        }
+    }
+
+    .carusel .slide-img {
+        padding-left: 50px;
+    }
+
+    .carusel .slide__clothes {
+        width: 335px;
+        transform: translateX(51px);
+    }
+
+    .carousel .slick-arrow {
+        position: absolute;
+        top: 250px;
+        font-size: 0;
+        width: 32px;
+        height: 32px;
+        z-index: 20;
+        border: none;
+        outline: none;
+    }
 
 }
 
@@ -136,7 +285,7 @@
 
 
     .welcome {
-        padding: 120px 0 180px 0px;
+        padding: 120px 0 150px 0;
 
         &__wrapper {
             grid-template-columns: 265px 190px;
@@ -184,6 +333,8 @@
     }
 
     .care {
+        padding: 100px 0 40px 0;
+
         &__wrapper {
             padding: 0 10px;
         }
@@ -270,13 +421,177 @@
         }
     }
 
+    .shopping {
+        padding: 0 0 130px 0;
+
+        &__title {
+            font-size: 35px;
+            margin-top: 10px;
+        }
+
+        &__items {
+            gap: 30px;
+        }
+
+        &__item {
+            font-size: 14px;
+        }
+    }
+
+    .discount__modal {
+        width: 487px;
+        height: 250px;
+        top: 22%;
+        grid-template-columns: 210px 275px;
+    }
+
+    .modal__humen {
+        img {
+            height: 247px;
+        }
+    }
+
+    .discount__info {
+        padding: 0px 5px 0 10px;
+    }
+
+    .discount__header {
+        img {
+            height: 50px;
+        }
+    }
+
+    .discount__close {
+        margin-right: 25px;
+    }
+
+    .discount__title {
+        margin-top: 15px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .discount__text {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .discount__descr {
+        input {
+            width: 260px;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+
+        button {
+            width: 260px;
+            height: 30px;
+        }
+    }
+
+    .discount__procent {
+        width: 70px;
+        top: -30px;
+    }
+
+    .action {
+        padding-bottom: 380px;
+
+        &__wrapper {
+            grid-template-columns: 384px 384px;
+
+            &__descr {
+                width: 384px;
+                height: 299px;
+                padding: 85px 30px 115px 30px;
+            }
+
+            &__img {
+                img {
+                    width: 384px;
+                }
+            }
+        }
+
+        &__game {
+            height: 50px;
+        }
+
+        &__procent {
+            height: 40px;
+            margin-top: 7px;
+            margin-bottom: 10px;
+        }
+
+        &__button {
+            margin: 10px auto 0 auto;
+        }
+
+        &__descr {
+            width: 312px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 115%;
+            bottom: 323px;
+            right: 30px;
+        }
+
+        &__position {
+            width: 200px;
+            right: 92px;
+            bottom: -160px;
+        }
+    }
+
+
+
+
+    .carusel {
+        &__header {
+            font-size: 50px;
+            margin-bottom: 110px;
+        }
+
+        &__boy {
+            right: 320px;
+            width: 130px;
+            top: -117px;
+
+        }
+    }
+
+    .carusel .slide-img {
+        padding-left: 0;
+    }
+
+    .carusel .slide__clothes {
+        width: 385px;
+        transform: translateX(0);
+    }
+
+    .carousel .slick-arrow {
+        position: absolute;
+        top: 180px;
+        font-size: 0;
+        width: 32px;
+        height: 32px;
+        z-index: 20;
+        border: none;
+        outline: none;
+    }
+
 }
+
 
 
 @media (max-width: 768px) {
     .container {
         max-width: 540px;
         padding: 0 10px;
+    }
+
+    .adv__wrapper {
+        font-size: 12px;
     }
 
     .menu {
@@ -433,7 +748,78 @@
     }
 
 
+    .shopping {
+        &__img {
+            margin-bottom: 16px;
+        }
+
+        &__items {
+            gap: 20px;
+        }
+
+        &__item {
+            font-size: 7px;
+        }
+    }
+
+    .action {
+        &__wrapper {
+            grid-template-columns: 288px 288px;
+
+            &__descr {
+                width: 288px;
+                height: 224px;
+                padding: 85px 20px 115px 20px;
+            }
+
+            &__img {
+                img {
+                    width: 288px;
+                }
+            }
+
+            &__text {
+                font-size: 12px;
+            }
+        }
+
+        &__procent {
+            height: 30px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        &__game {
+            height: 40px;
+        }
+
+        &__main {
+            height: 35px;
+        }
+
+        &__return {
+            height: 35px;
+            width: 35px;
+        }
+
+        &__descr {
+            width: 240px;
+            font-size: 10px;
+            bottom: 332px;
+            right: 14px;
+        }
+
+        &__position {
+            width: 150px;
+            right: 70px;
+            bottom: -120px;
+        }
+    }
+
+
 }
+
+
 
 
 
@@ -443,56 +829,8 @@
         padding: 0 10px;
     }
 
-    .adv__wrapper {
-        font-size: 7px;
-        height: 30px;
-    }
 
-    .promo {
-        &__logo {
-            display: none;
-        }
 
-        header {
-            justify-content: center;
-            align-items: start;
-        }
-
-        &__nav {
-            gap: 10px;
-            margin-top: 10px;
-
-            &__item {
-                font-size: 10px;
-            }
-        }
-
-        &__detail {
-            display: none;
-        }
-
-        &__info {
-            margin-left: 33%;
-            margin-top: 110px;
-        }
-
-        .info_title {
-            font-size: 30px;
-            line-height: 50px;
-        }
-
-        .info_title_mod {
-            transform: translateX(-50px);
-        }
-
-        .info_text {
-            width: 200px;
-        }
-
-        &__footer {
-            margin-top: 30px;
-        }
-    }
 
     .menu {
         padding: 0px 10px 0px 10px;
@@ -520,6 +858,57 @@
         }
     }
 
+    .adv__wrapper {
+        font-size: 7px;
+        height: 25px;
+    }
+
+    .promo {
+
+        header {
+            justify-content: center;
+        }
+
+        &__logo {
+            display: none;
+        }
+
+        &__nav {
+            margin-top: -20px;
+            gap: 10px;
+
+            &__item {
+                font-size: 10px;
+            }
+        }
+
+        &__detail {
+            display: none;
+        }
+
+        &__info {
+            margin-top: 120px;
+            margin-left: 35%;
+        }
+
+        .info_title_mod {
+            transform: translateX(-41px);
+        }
+
+        .info_title {
+            line-height: 40px;
+            font-size: 25px;
+        }
+
+        .info_text {
+            width: 200px;
+        }
+
+        &__footer {
+            margin-top: 40px;
+        }
+    }
+
     .welcome {
         padding: 50px 0 150px 0;
 
@@ -543,18 +932,18 @@
             }
 
             &__img2 {
-                right: 190px;
+                left: 16%;
                 top: 145px;
             }
 
             &__img1 {
                 top: 19px;
-                left: -14px;
+                left: 5%;
             }
 
             &__img4 {
                 top: 251px;
-                left: 39px;
+                left: 31%;
             }
         }
     }
@@ -599,5 +988,197 @@
         }
     }
 
+    .discount__header {
+        justify-content: end;
+
+        img {
+            display: none;
+        }
+    }
+
+    .modal__humen {
+        img {
+            width: 150px;
+            height: 220px;
+        }
+    }
+
+    .discount__modal {
+        grid-template-columns: 150px 145px;
+        top: 30%;
+        width: 300px;
+        height: 220px;
+    }
+
+    .discount__title {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .discount__text {
+        line-height: 100%;
+    }
+
+    .discount__procent {
+        width: 26px;
+        top: -9px;
+        right: 28px;
+    }
+
+    .discount__descr {
+        input {
+            width: 130px;
+        }
+
+        button {
+            width: 120px;
+        }
+    }
+
+    .shopping {
+        padding: 0 0 100px 0;
+    }
+
+    .action {
+        padding-bottom: 150px;
+
+        &__wrapper {
+            grid-template-columns: 1fr;
+            gap: 0;
+
+            &__descr {
+                width: 100%;
+                height: 250px;
+            }
+
+            &__img {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        &__position {
+            display: none;
+        }
+
+        &__descr {
+            font-size: 9px;
+            width: 260px;
+            left: calc(50% + 26px);
+            transform: translateX(-50%);
+            bottom: 110px;
+        }
+    }
+
+    .carusel {
+        &__header {
+            font-size: 25px;
+            margin-bottom: 70px;
+        }
+
+        &__boy {
+            right: 164px;
+            width: 60px;
+            top: -52px;
+
+        }
+
+        &__subtitle {
+            font-size: 10px;
+        }
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__background {
+            height: 270px;
+        }
+    }
+
+    .carusel .slide-img {
+        padding-left: 50px;
+        width: 230px;
+        height: 180px;
+    }
+
+    .carusel .slide__descr {
+        margin-left: 60px;
+        font-size: 12px;
+    }
+
+    .carusel .slide__button {
+        gap: 0;
+        margin-left: 56px;
+    }
+
+    .carusel .slide__item__img {
+        width: 30px;
+        margin-right: 6px;
+    }
+
+    .carusel .slide__item__title {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .carusel .slide__item__price {
+        font-size: 12px;
+    }
+
+    .carusel .slide__clothes {
+        width: 181px;
+        transform: translateX(50px);
+        height: 128px;
+    }
+
+    .carousel .slick-arrow {
+        position: absolute;
+        top: 110px;
+        right: 1px;
+        font-size: 0;
+        width: 32px;
+        height: 32px;
+        z-index: 20;
+        border: none;
+        outline: none;
+    }
+
+    .carousel .slick-dots {
+        position: absolute;
+        bottom: -70px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li {
+            list-style: none;
+        }
+
+        button {
+            font-size: 0;
+            width: 40px;
+            height: 2px;
+            border: none;
+            border: 2px solid rgba(51, 65, 57, 0.3);
+        }
+    }
+
+    .carusel .carusel__leaf {
+        left: -23%;
+        bottom: -100px;
+    }
+
+    .carousel .slick-arrow.slick-next {
+        right: 5px;
+    }
+
+    .carousel .slick-arrow.slick-prev {
+        right: 50px;
+    }
 
 }
