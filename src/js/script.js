@@ -1,33 +1,62 @@
 //button
 
-const buttonsMain = document.querySelectorAll('.button__main');
-const buttonsReturn = document.querySelectorAll('.button__return');
+const buttonsMain = document.querySelector('.promo__button');
+const buttonsReturn = document.querySelector('.promo__return');
 
-buttonsMain.forEach(buttonMain => {
-    buttonMain.addEventListener('mouseenter', function () {
-        buttonsReturn.forEach(buttonReturn => {
-            buttonReturn.classList.add('button__animation');
-        });
-    });
+buttonsMain.addEventListener('mouseenter', () => {
+    buttonsReturn.classList.add('button__animation')
+});
 
-    buttonMain.addEventListener('mouseleave', function () {
-        buttonsReturn.forEach(buttonReturn => {
-            buttonReturn.classList.remove('button__animation');
-        });
-    });
+buttonsMain.addEventListener('mouseleave', () => {
+    buttonsReturn.classList.remove('button__animation')
 });
 
 
-const more = document.getElementById('more');
+const buttonWelcome = document.querySelector('.welcome__button');
+const returnWelcome = document.querySelector('.welcome__return');
+
+buttonWelcome.addEventListener('mouseenter', () => {
+    returnWelcome.classList.add('button__animation')
+});
+
+buttonWelcome.addEventListener('mouseleave', () => {
+    returnWelcome.classList.remove('button__animation')
+});
+
+const buttonAction = document.querySelector('.action__main');
+const returnAction = document.querySelector('.action__return');
+
+buttonAction.addEventListener('mouseenter', () => {
+    returnAction.classList.add('button__animation')
+});
+
+buttonAction.addEventListener('mouseleave', () => {
+    returnAction.classList.remove('button__animation')
+});
+
+
+const buttonTrust = document.querySelector('.button__trust');
+const returnTrust = document.querySelector('.trust__button__return');
+
+buttonTrust.addEventListener('mouseenter', () => {
+    returnTrust.classList.add('button__animation')
+});
+
+buttonTrust.addEventListener('mouseleave', () => {
+    returnTrust.classList.remove('button__animation')
+});
+
+
+
+
 const care = document.getElementById('care');
 
-more.addEventListener('click', function () {
+buttonWelcome.addEventListener('click', function () {
     care.scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     });
 });
-
 
 //menu 
 
@@ -41,10 +70,7 @@ close.addEventListener('click', function () {
     menu.classList.remove('menu__visible');
 });
 
-
-const menuButton = document.querySelector('.button__main');
-
-menuButton.addEventListener('click', () => {
+buttonsMain.addEventListener('click', () => {
     menu.classList.add('menu__visible');
 });
 
@@ -259,4 +285,5 @@ viewproducts5.addEventListener('click', () => {
 });
 
 
+//track button 
 
