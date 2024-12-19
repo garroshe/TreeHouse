@@ -82,6 +82,11 @@
         font-weight: 400;
         line-height: 100%;
 
+        a {
+            color: $white-color;
+            text-decoration: none;
+        }
+
         ul {
             list-style-type: none;
 

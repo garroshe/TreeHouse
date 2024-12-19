@@ -20,7 +20,7 @@
 
     .menu {
         .list_descr {
-            left: 400px;
+            left: 380px;
         }
     }
 
@@ -201,6 +201,118 @@
         outline: none;
     }
 
+    .trust {
+        &__title {
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-size: 45px;
+        }
+
+        .trust__tshir {
+            width: 400px;
+        }
+
+        &__treehouse {
+            top: -33px;
+            left: 96px;
+            width: 150px;
+        }
+
+        &__child {
+            right: 90px;
+            width: 50px;
+        }
+
+        &__letsplay {
+            bottom: 150px;
+            right: 20px;
+            width: 80px;
+
+            &-text {
+                bottom: 165px;
+                right: 30px;
+                font-size: 10px;
+            }
+        }
+
+        &__kite {
+            top: 15%;
+            width: 100px;
+        }
+
+        &__line {
+            top: 119px;
+            right: 96px;
+        }
+
+        &__button {
+            margin-top: 15px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .footer {
+        height: 300px;
+
+        &__title {
+            font-size: 12px;
+        }
+
+        &__input {
+            width: 200px;
+            height: 30px;
+
+
+        }
+
+        &__form {
+            input {
+                margin-bottom: 0;
+            }
+        }
+
+        &__button {
+            width: 60px;
+            height: 42px;
+            font-size: 12px;
+        }
+
+        &__info {
+            gap: 20px;
+            font-size: 12px;
+
+            &__title {
+                width: 65px;
+            }
+        }
+
+        &__custumercare {
+            width: 70px;
+        }
+
+        &__payment {
+            width: 130px;
+
+            img {
+                width: 50px;
+            }
+        }
+
+        &__leaf-center {
+            bottom: -20px;
+            width: 200px;
+        }
+
+        .up {
+            bottom: 13px;
+            right: 148px;
+
+            img {
+                width: 50px;
+            }
+        }
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -222,6 +334,13 @@
         .position {
             top: 200px;
             left: -160px;
+        }
+
+        .list_descr {
+            img {
+                top: 0;
+                left: -66px;
+            }
         }
     }
 
@@ -580,6 +699,102 @@
         outline: none;
     }
 
+    .trust {
+        &__subtitle {
+            font-size: 12px;
+        }
+
+        &__title {
+            font-size: 35px;
+        }
+
+        .trust__tshir {
+            width: 300px;
+        }
+
+        &__treehouse {
+            top: -24px;
+            left: 64px;
+            width: 110px;
+        }
+
+        &__child {
+            right: 60px;
+            width: 40px;
+        }
+
+        &__letsplay {
+            bottom: 123px;
+            right: 4px;
+            width: 64px;
+
+            &-text {
+                bottom: 137px;
+                right: 11px;
+                font-size: 8px;
+            }
+        }
+
+        &__kite {
+            top: 15%;
+            width: 75px;
+        }
+
+        &__line {
+            top: 30%;
+            right: 70px;
+        }
+
+        &__button {
+            margin-top: 0;
+        }
+    }
+
+    .footer {
+        padding: 44px 0 0 0;
+        height: 270px;
+
+        &__title {
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+
+        &__button {
+            width: 40px;
+            height: 42px;
+            font-size: 10px;
+        }
+
+        &__input {
+            width: 150px;
+            height: 42px;
+        }
+
+        &__info {
+            gap: 0px;
+            font-size: 10px;
+        }
+
+        &__payment {
+            width: 50px;
+        }
+
+        .up {
+            bottom: 15px;
+            right: 207px;
+        }
+
+        &__logo {
+            margin-top: 45px;
+            margin-bottom: 0px;
+        }
+
+        &__leaf-center {
+            bottom: -36px;
+            left: 364px;
+        }
+    }
+
 }
 
 
@@ -596,24 +811,50 @@
 
     .menu {
         padding: 20px 30px 63px 30px;
+        height: 104vh;
+        width: 104%;
+
+        &__hide {
+            left: -120%;
+        }
+
+        &__visible {
+            left: 0;
+        }
+
+        &__close {
+            margin-right: 10px;
+        }
 
         .wrapper__position {
             margin-top: 70px;
         }
 
         .main_list {
-            font-size: 30px;
-            margin-top: 50px;
+            font-size: 20px;
+            margin-top: 90px;
         }
 
+        &__info {
+            margin-top: 170px;
+        }
+
+        .position {
+            width: 140px;
+            top: 155px;
+            left: -57px;
+        }
+
+
+
         .list_descr {
-            top: 150px;
-            left: 240px;
+            top: 184px;
+            left: 210px;
             font-size: 15px;
         }
 
         .list_descr.roompers {
-            top: 140px;
+            top: 153px;
         }
 
         .list_descr.hats {
@@ -625,11 +866,16 @@
         }
 
         .shop_img {
-            width: 320px;
+            width: 220px;
+            margin-top: 50px;
         }
 
-        .position {
-            top: 130px;
+        .bottoms {
+            top: 170px;
+        }
+
+        .list_descr.shopAll {
+            top: 116px;
         }
     }
 
@@ -816,6 +1062,11 @@
         }
     }
 
+    .footer {
+        .up {
+            right: 170px;
+        }
+    }
 
 }
 
@@ -833,28 +1084,75 @@
 
 
     .menu {
-        padding: 0px 10px 0px 10px;
+        padding: 0 20px 30px 10px;
+
+        &__wrapper {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        &__info {
+            position: absolute;
+            margin-top: 0;
+            top: 500px;
+            gap: 15px;
+            top: 93%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &__close {
+            margin-right: 25px;
+        }
 
         .wrapper__position {
-            margin-top: 100px;
+            display: block;
+            margin: 0 auto;
+            width: 75%;
+            margin-top: 40px;
         }
 
         .shop_img {
-            width: 240px;
+            width: 100%;
+            margin-top: 0;
+
+            &_descr {
+                margin-top: 5px;
+            }
         }
 
         .main_list {
             font-size: 26px;
-            margin-top: 70px;
+            margin-top: 30px;
+            margin-bottom: 0;
         }
 
         .list_descr {
             left: 210px;
+            top: 114px;
         }
 
+        .bottoms {
+            top: 100px;
+        }
+
+        .list_descr.roompers {
+            top: 90px;
+        }
+
+        .list_descr.hats {
+            top: 75px;
+        }
+
+        .list_descr.shopAll {
+            top: 60px;
+        }
+
+
+
         .position {
-            top: 80px;
-            left: -150px;
+            top: 50%;
+            left: -33%;
         }
     }
 
@@ -1179,6 +1477,113 @@
 
     .carousel .slick-arrow.slick-prev {
         right: 50px;
+    }
+
+    .trust {
+
+        &__title {
+            font-size: 25px;
+        }
+
+        &__img {
+            margin-top: 80px;
+        }
+
+        &__kite {
+            top: -23%;
+        }
+
+        &__line {
+            top: -8%;
+        }
+
+        &__letsplay {
+            left: 14%;
+            bottom: -13%;
+
+            &-text {
+                left: -49%;
+                bottom: -9%;
+            }
+        }
+
+        &__button {
+            justify-content: end;
+        }
+
+        &__child {
+            left: 0;
+            bottom: -50%;
+        }
+    }
+
+    .footer {
+        padding: 10px 0 0 0;
+        height: 200px;
+
+        &__title {
+            font-size: 7px;
+            line-height: 130%;
+            margin-bottom: 5px;
+        }
+
+        &__button {
+            width: 30px;
+            height: 35px;
+            font-size: 8px;
+        }
+
+        &__input {
+            width: 90px;
+            height: 35px;
+            padding: 5px;
+        }
+
+        &__logo {
+            margin-top: 35px;
+            margin-bottom: 15px;
+            width: 90px;
+            height: auto;
+        }
+
+        .privicy {
+            font-size: 7px;
+        }
+
+        &__info {
+            font-size: 7px;
+
+            &__title {
+                width: 40px;
+                margin-bottom: 15px;
+            }
+        }
+
+        &__custumercare {
+            width: 45px;
+        }
+
+        &__payment {
+            width: 40px;
+
+            img {
+                width: 40px;
+            }
+        }
+
+        .up {
+            bottom: 10px;
+            right: 93px;
+
+            img {
+                width: 40px;
+            }
+        }
+
+        &__leaf-center {
+            bottom: -48px;
+            left: 63px;
+        }
     }
 
 }

@@ -161,7 +161,7 @@ $(document).ready(function () {
         arrows: true,
         dots: true,
         slidesToShow: 3,
-        // autoplay: true,
+        autoplay: true,
         responsive: [
             {
                 breakpoint: 1224,
@@ -182,9 +182,9 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 992,
+                breakpoint: 1000,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     centerMode: true,
 
@@ -200,7 +200,16 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 576,
+                breakpoint: 580,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    centerMode: true,
+
+                }
+            },
+            {
+                breakpoint: 500,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
