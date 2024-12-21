@@ -11,7 +11,6 @@ buttonsMain.addEventListener('mouseleave', () => {
     buttonsReturn.classList.remove('button__animation')
 });
 
-
 const buttonWelcome = document.querySelector('.welcome__button');
 const returnWelcome = document.querySelector('.welcome__return');
 
@@ -45,6 +44,7 @@ buttonTrust.addEventListener('mouseenter', () => {
 buttonTrust.addEventListener('mouseleave', () => {
     returnTrust.classList.remove('button__animation')
 });
+
 
 
 
@@ -285,5 +285,24 @@ viewproducts5.addEventListener('click', () => {
 });
 
 
-//track button 
+//adv
 
+const advLeftTexts = ['Free Shipping Over $150', 'Get 25% off buying the entire capsule collection'];
+const advRightTexts = ['Free pick up', 'Subscribe to us and get 15% off your first order'];
+
+const oldAdvLeft = document.querySelector('.adv__wrapper__left');
+const oldAdvRight = document.querySelector('.adv__wrapper__right');
+
+let index = 0;
+
+function changeAdv() {
+    oldAdvLeft.textContent = advLeftTexts[index];
+    oldAdvRight.textContent = advRightTexts[index];
+
+    // Змінюємо індекс (0 -> 1 -> 0 ...)
+    index = (index + 1) % advLeftTexts.length;
+
+    setTimeout(changeAdv, 3000);
+}
+
+setTimeout(changeAdv, 3000);
