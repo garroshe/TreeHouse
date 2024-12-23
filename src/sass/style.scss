@@ -31,6 +31,16 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Прибираємо стрілки у Chrome, Safari, Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    /* Вимикаємо стандартний вигляд */
+    margin: 0;
+    /* Забираємо стандартні відступи */
+}
+
+
 
 @import 'blocks/promo';
 @import 'blocks/buttons';
@@ -48,8 +58,10 @@ html {
 @import 'blocks/privicy';
 @import 'blocks/ourteam';
 @import 'blocks/ourimpact';
+@import 'blocks/giftcard';
 
 @import 'blocks/media';
 @import 'blocks/track_media';
 @import 'blocks/ourteam_media';
 @import 'blocks/ourimpact_madia';
+@import 'blocks/giftcard_media';

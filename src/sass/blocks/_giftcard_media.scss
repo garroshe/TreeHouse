@@ -1,0 +1,1353 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+
+    .gift {
+        &__wrapper {
+            grid-template-columns: 400px 425px;
+        }
+
+        &__img {
+            width: 400px;
+            height: 300px;
+
+            &__hand {
+                width: 300px;
+                top: 22%;
+                left: 50%;
+                transform: translate(-47%);
+            }
+
+            &__text {
+                width: 180px;
+                bottom: 89px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            &__logo {
+                width: 70px;
+                left: 18%;
+                top: 24%;
+            }
+
+            &__present {
+                width: 40px;
+                top: 32%;
+                left: 50%;
+                transform: translateX(-26%);
+            }
+
+            &__stars {
+                width: 70px;
+                top: 29%;
+                left: 50%;
+                transform: translateX(-35%);
+            }
+
+            &__line {
+                width: 8px;
+                top: 38%;
+                left: 50%;
+                transform: translateX(-53%);
+            }
+
+            &__line2 {
+                width: 10px;
+                top: 37%;
+                left: 50%;
+                transform: translateX(96%);
+            }
+        }
+
+        &__info {
+            &__send {
+                font-size: 12px;
+                gap: 5px;
+
+                img {
+                    width: 25px;
+                }
+
+                &__modal {
+                    top: 7%;
+                    right: 3%;
+                    width: 100px;
+                    height: 120px;
+                    padding-top: 20px;
+                    padding-left: 25px;
+
+                    ul {
+                        li {
+                            margin-bottom: 5px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+
+
+            &__title {
+                font-size: 40px;
+                margin: 10px 0 15px 0;
+            }
+
+            &__subtitle {
+                font-size: 14px;
+            }
+
+            &__rate {
+                margin: 25px 0 50px 0;
+            }
+
+            &__prices {
+                gap: 5px;
+
+                &__price {
+                    font-size: 30px;
+                }
+
+                &__descr {
+                    font-size: 12px;
+                }
+            }
+
+            &__dropdown {
+                select {
+                    width: 300px;
+                    height: 50px;
+                }
+            }
+
+            .email-send-modal {
+                width: 750px;
+                height: 450px;
+                padding: 0px 10px 30px 50px;
+
+                &__title {
+                    font-size: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+
+                &__wrapper {
+                    grid-template-columns: 310px 300px;
+                    gap: 30px;
+                }
+
+                &__info {
+                    &__tabs {
+                        gap: 4px;
+                        margin-bottom: 5px;
+                        font-size: 12px;
+
+                        &__tab {
+                            width: 100px;
+                            height: 60px;
+                        }
+                    }
+
+                    &__text {
+                        margin-bottom: 10px;
+                        font-size: 12px;
+                    }
+
+                    &__form {
+                        gap: 30px;
+
+                        &__label {
+                            label {
+                                font-size: 14px;
+                            }
+                        }
+
+                        &__input {
+                            input {
+                                width: 220px;
+                                height: 30px;
+                                margin-bottom: 10px;
+                            }
+
+                            textarea {
+                                height: 45px;
+                                width: 220px;
+                            }
+                        }
+
+                        &__submit {
+                            width: 150px;
+                            height: 45px;
+                            gap: 5px;
+                            font-size: 12px;
+                        }
+
+                        &__data {
+                            width: 150px;
+                            height: 45px;
+                            gap: 5px;
+                            font-size: 12px;
+                        }
+                    }
+
+                    &__btns {
+                        margin-top: 10px;
+                        gap: 5px;
+                    }
+                }
+
+                &__enjoy {
+                    width: 290px;
+                    height: 300px;
+
+                    &__img1 {
+                        margin-bottom: 10px;
+                        width: 250px;
+                    }
+
+                    &__img2 {
+                        width: 25px;
+                    }
+                }
+
+                &__button {
+                    width: 150px;
+                    height: 45px;
+                    font-size: 12px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+
+    .reviews {
+        &__title {
+            font-size: 40px;
+            margin-bottom: 60px;
+        }
+
+        &__button {
+            margin-right: 50px;
+            width: 140px;
+            height: 45px;
+        }
+
+        &__return {
+            top: 15px;
+            left: 90px;
+            height: 45px;
+            width: 45px;
+        }
+
+        &__rating {
+            &__title {
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+
+            &__coment {
+                margin-top: 90px;
+                margin-bottom: 10px;
+
+                &__title {
+                    font-size: 16px;
+                }
+
+                &__sort {
+                    select {
+                        width: 200px;
+                        height: 40px;
+                        padding: 10px 18px 10px 12px;
+                    }
+                }
+            }
+
+            &__response {
+                margin-top: 40px;
+                margin-bottom: 40px;
+
+                &__info {
+                    gap: 20px;
+
+                    &__avatar {
+                        width: 70px;
+                    }
+
+                    &__text {
+                        font-size: 12px;
+                    }
+
+                    &__rate {
+                        height: 14px;
+                        margin-top: 10px;
+                    }
+
+                    &__name {
+                        margin-top: 10px;
+                        font-size: 12px;
+                    }
+
+                    &__title {
+                        font-size: 16px;
+                        margin-top: 15px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &__mark {
+                    gap: 40px;
+
+                    img {
+                        width: 70px;
+                    }
+                }
+            }
+
+            &__info {
+                gap: 60px;
+
+                &__list {
+                    li {
+                        gap: 15px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &__all {
+                    &__5 {
+                        width: 55px;
+                    }
+
+                    &__rate {
+                        gap: 10px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            &__catalog {
+
+                &__title {
+                    width: 300px;
+                }
+
+                &__item {
+                    &__img {
+                        width: 200px;
+                    }
+
+                    &__title {
+                        font-size: 10px;
+                        margin-top: 10px;
+                        margin-bottom: 5px;
+                    }
+
+                    &__rate {
+                        gap: 10px;
+                        font-size: 12px;
+                        margin-bottom: 15px;
+
+                        img {
+                            height: 12px;
+                        }
+                    }
+
+                    &__price {
+                        font-size: 16px;
+                    }
+                }
+
+                &__wrapper {
+                    gap: 20px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .gift {
+        &__wrapper {
+            grid-template-columns: 200px 260px;
+        }
+
+        &__img {
+            width: 200px;
+            height: 150px;
+
+            &__hand {
+                width: 180px;
+                top: 19%;
+                left: 50%;
+                transform: translate(-47%);
+            }
+
+            &__text {
+                width: 79px;
+                bottom: 40px;
+                left: 50%;
+                transform: translateX(-54%);
+            }
+
+            &__logo {
+                width: 40px;
+                left: 20%;
+                top: 29%;
+            }
+
+            &__present {
+                width: 23px;
+                top: 33%;
+                left: 50%;
+                transform: translateX(-33%);
+            }
+
+            &__stars {
+                width: 40px;
+                top: 30%;
+                left: 50%;
+                transform: translateX(-35%);
+            }
+
+            &__line1 {
+                width: 5px;
+                top: 40%;
+                left: 50%;
+                transform: translateX(-76%);
+            }
+
+            &__line2 {
+                width: 5px;
+                top: 39%;
+                left: 50%;
+                transform: translateX(126%);
+            }
+
+            &__leafb {
+                width: 100px;
+                position: absolute;
+                bottom: -20px;
+                right: 0;
+            }
+
+            &__leaft {
+                top: -20px;
+                left: 0;
+                width: 80px;
+            }
+        }
+
+        &__info {
+            &__send {
+                font-size: 10px;
+                gap: 5px;
+                margin-right: 100px;
+
+                img {
+                    width: 20px;
+                }
+
+                &__modal {
+                    top: 9%;
+                    right: 5%;
+                    width: 80px;
+                    height: 90px;
+                    padding-top: 10px;
+                    padding-left: 20px;
+
+                    ul {
+                        li {
+                            margin-bottom: 5px;
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+
+            &__cart__button {
+                width: 100px;
+                height: 35px;
+                margin-top: 25px;
+                font-size: 10px;
+            }
+
+            &__title {
+                font-size: 30px;
+                margin: 5px 0 10px 0;
+            }
+
+            &__subtitle {
+                font-size: 12px;
+            }
+
+            &__rate {
+                margin: 20px 0 40px 0;
+                gap: 25px;
+
+                &__reviews {
+                    gap: 10px;
+                    font-size: 14px;
+
+                    img {
+                        height: 12px;
+                    }
+                }
+
+                &__button {
+                    font-size: 12px;
+                }
+            }
+
+            &__prices {
+                gap: 2px;
+                margin-bottom: 45px;
+
+                &__price {
+                    font-size: 20px;
+                }
+
+                &__descr {
+                    font-size: 10px;
+                }
+            }
+
+            &__form {
+                gap: 20px;
+            }
+
+            &__dropdown {
+                grid-template-rows: 14px 40px;
+                gap: 8px;
+
+                select {
+                    width: 160px;
+                    height: 40px;
+                    padding: 10px 18px 10px 12px;
+                    font-size: 14px;
+                    background-size: 20px;
+                }
+            }
+
+            &__quantity {
+                button {
+                    width: 25px;
+                    height: 40px;
+                    font-size: 14px;
+                }
+
+                input {
+                    width: 25px;
+                    height: 40px;
+                    font-size: 16px;
+                }
+            }
+
+            &__button {
+                width: 100px;
+                height: 35px;
+                font-size: 10px;
+            }
+
+            &__return {
+                height: 40px;
+                width: 40px;
+                left: 65px;
+            }
+
+            &__any {
+                margin: 70px 0 20px 0;
+            }
+
+            &__beetwen {
+                margin: 20px 0;
+            }
+
+            &__ul {
+                font-size: 12px;
+
+                li {
+                    margin-bottom: 15px;
+                    width: 250px;
+                }
+            }
+
+            &__list {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .reviews {
+        padding-bottom: 30px;
+
+        &__title {
+            font-size: 35px;
+            margin-bottom: 50px;
+        }
+
+        &__button {
+            margin-right: 40px;
+            width: 100px;
+            height: 40px;
+            font-size: 10px;
+        }
+
+        &__return {
+            top: 15px;
+            left: 58px;
+            height: 40px;
+            width: 40px;
+        }
+
+        &__rating {
+
+            &__catalog {
+                margin-top: 100px;
+            }
+
+            &__catalog-two {
+                margin-top: 60px;
+                margin-bottom: 90px;
+            }
+
+            &__title {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+
+            &__info {
+                gap: 20px;
+
+
+                &__all {
+                    &__rate {
+                        gap: 10px;
+                        margin-bottom: 20px;
+                        font-size: 12px;
+
+                        img {
+                            height: 12px;
+                        }
+                    }
+
+                    &__5 {
+                        width: 45px;
+                    }
+                }
+
+                &__list {
+                    li {
+                        gap: 5px;
+                        margin-bottom: 5px;
+                        font-size: 12px;
+
+                        img {
+                            width: 85px;
+                        }
+                    }
+
+                    &__scale {
+                        width: 80px;
+                        height: 12px;
+                    }
+
+                    &__scale-mod {
+                        width: 80px;
+                        height: 12px;
+                    }
+                }
+            }
+
+            &__coment {
+                margin-top: 80px;
+                margin-bottom: 5px;
+
+                &__title {
+                    font-size: 12px;
+                }
+
+                &__sort {
+                    select {
+                        width: 150px;
+                        height: 30px;
+                        padding: 5px 18px 5px 12px;
+                    }
+
+                    label {
+                        font-size: 12px;
+                    }
+                }
+
+            }
+
+            &__response {
+                margin-top: 30px;
+                margin-bottom: 30px;
+
+                &__info {
+                    gap: 10px;
+
+                    &__avatar {
+                        width: 60px;
+                    }
+
+                    &__rate {
+                        height: 12px;
+                        margin-top: 5px;
+                    }
+
+                    &__name {
+                        margin-top: 5px;
+                        font-size: 12px;
+                    }
+
+                    &__title {
+                        font-size: 14px;
+                        margin-top: 10px;
+                        margin-bottom: 5px;
+                    }
+
+                    &__text {
+                        font-size: 12px;
+                    }
+                }
+
+                &__mark {
+                    gap: 20px;
+
+                    &__date {
+                        font-size: 12px;
+                    }
+
+                    img {
+                        width: 60px;
+                    }
+                }
+
+                &__button {
+                    font-size: 14px;
+                    line-height: 14px;
+                    width: 140px;
+                    height: 45px;
+                }
+
+                &__return {
+                    height: 45px;
+                    width: 45px;
+                    left: 265px;
+                }
+            }
+
+            &__catalog {
+
+                &__title {
+                    margin-bottom: 20px;
+                    width: 230px;
+                }
+
+                &__wrapper {
+                    gap: 10px;
+                }
+
+                &__item {
+                    width: 110px;
+
+                    &__img {
+                        width: 110px;
+                    }
+
+                    &__title {
+                        font-size: 9px;
+                        margin-top: 10px;
+                        margin-bottom: 5px;
+                    }
+
+                    &__rate {
+                        gap: 5px;
+                        font-size: 10px;
+                        margin-bottom: 10px;
+
+                        img {
+                            height: 8px;
+                        }
+                    }
+
+                    &__price {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+        padding: 0 10px;
+    }
+
+    .gift {
+        &__info {
+            &__title {
+                font-size: 25px;
+            }
+
+            &__send {
+                &__modal {
+                    right: 7%;
+                }
+            }
+
+            &__form {
+                label {
+                    font-size: 12px;
+                    margin: 0;
+                }
+            }
+
+            .email-send-modal {
+                width: 480px;
+                height: 370px;
+                padding: 20px 10px 0px 30px;
+
+                &__title {
+                    font-size: 20px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
+
+                &__button {
+                    width: 120px;
+                    height: 35px;
+                    font-size: 10px;
+                    margin-top: 10px;
+                }
+
+                &__enjoy {
+                    width: 200px;
+                    height: 240px;
+
+                    &__img1 {
+                        margin-bottom: 5px;
+                        width: 160px;
+                    }
+
+                    &__img2 {
+                        width: 20px;
+                    }
+
+                    &__text {
+                        font-size: 12px;
+                    }
+                }
+
+                &__wrapper {
+                    grid-template-columns: 200px 200px;
+                    gap: 20px;
+                }
+
+                &__info {
+                    &__tabs {
+                        gap: 10px;
+                        margin-bottom: 5px;
+                        font-size: 10px;
+
+                        &__tab {
+                            width: 60px;
+                            height: 40px;
+
+                            img {
+                                width: 20px;
+                            }
+                        }
+                    }
+
+                    &__text {
+                        margin-bottom: 10px;
+                        font-size: 10px;
+                    }
+
+                    &__form {
+                        gap: 10px;
+
+                        &__label {
+                            label {
+                                font-size: 12px;
+                            }
+                        }
+
+                        &__input {
+                            input {
+                                width: 145px;
+                                height: 30px;
+                                margin-bottom: 5px;
+                                padding: 4px;
+                            }
+
+                            textarea {
+                                height: 45px;
+                                width: 145px;
+                                padding: 4px;
+                            }
+                        }
+
+                        &__submit {
+                            width: 120px;
+                            height: 35px;
+                            gap: 5px;
+                            font-size: 9px;
+
+                            img {
+                                width: 12px;
+                            }
+                        }
+
+                        &__data {
+                            width: 120px;
+                            height: 35px;
+                            gap: 5px;
+                            font-size: 9px;
+
+                            img {
+                                width: 12px;
+                            }
+                        }
+                    }
+
+                    &__btns {
+                        margin-top: 5px;
+                        gap: 5px;
+                    }
+                }
+            }
+
+            .sticky-bar {
+                height: 90px;
+
+                &__title {
+                    font-size: 26px;
+                }
+
+                &__dropdown {
+                    select {
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .gift {
+        padding-top: 60px;
+
+        &__wrapper {
+            grid-template-columns: 300px;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        &__info {
+            &__title {
+                font-size: 30px;
+            }
+
+            &__send {
+                &__modal {
+                    top: 17%;
+                    right: 11%;
+                }
+            }
+
+            .sticky-bar {
+                height: 70px;
+
+                &__title {
+                    display: none;
+                }
+
+                &__dropdown {
+                    grid-template-rows: 14px 30px;
+                    gap: 8px;
+
+                    select {
+                        width: 89px;
+                        background-size: 20px;
+                        height: 30px;
+                        padding: 5px 5px 5px 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                &__quantity {
+                    label {
+                        top: -15px;
+                        left: 0;
+                        font-size: 12px;
+                    }
+
+                    button {
+                        width: 15px;
+                        height: 30px;
+                        font-size: 14px;
+                    }
+
+                    input {
+                        width: 15px;
+                        height: 30px;
+                        font-size: 16px;
+                    }
+                }
+
+                &__cart__button {
+                    width: 60px;
+                    height: 30px;
+                    font-size: 8px;
+                }
+
+                &__send__button {
+                    width: 60px;
+                    height: 30px;
+                    font-size: 7px;
+                }
+            }
+
+            .email-send-modal {
+                width: 300px;
+                height: 400px;
+                padding: 5px 10px 0 10px;
+
+                &__close {
+                    right: 25px;
+                    top: 2px;
+                }
+
+                &__title {
+                    font-size: 18px;
+                    margin-top: 0px;
+                    margin-bottom: 5px;
+                }
+
+                &__wrapper {
+                    grid-template-columns: 300px;
+                    gap: 10px;
+                }
+
+                &__enjoy {
+                    align-items: center;
+                    padding: 5px;
+                    width: 280px;
+                    height: 100px;
+
+                    &__img1 {
+                        margin-bottom: 0px;
+                        width: 100px;
+                    }
+
+                    &__img2 {
+                        width: 15px;
+                        margin-right: 100px;
+                    }
+
+                    &__text {
+                        font-size: 12px;
+                    }
+                }
+
+                &__info {
+                    order: 2;
+
+                    &__tabs {
+                        gap: 7px;
+                        margin-bottom: 5px;
+                        font-size: 10px;
+                        justify-content: center;
+
+                        &__tab {
+                            width: 60px;
+                            height: 30px;
+
+                            img {
+                                width: 15px;
+                            }
+                        }
+                    }
+
+                    &__text {
+                        margin-bottom: 5px;
+                        font-size: 10px;
+                    }
+
+                    &__form {
+                        gap: 10px;
+
+                        &__input {
+                            input {
+                                width: 230px;
+                                height: 25px;
+                                margin-bottom: 5px;
+                                padding: 4px;
+                            }
+
+                            textarea {
+                                height: 35px;
+                                width: 230px;
+                                padding: 4px;
+                            }
+                        }
+                    }
+
+                    &__btns {
+                        margin-top: 2px;
+                    }
+                }
+            }
+        }
+
+        &__img {
+            width: 300px;
+            height: 200px;
+
+            &__hand {
+                width: 250px;
+                top: 19%;
+                left: 50%;
+                transform: translate(-47%);
+            }
+
+            &__text {
+                width: 150px;
+                bottom: 40px;
+                left: 50%;
+                transform: translateX(-54%);
+            }
+
+            &__logo {
+                width: 60px;
+                left: 17%;
+                top: 22%;
+            }
+
+            &__present {
+                width: 35px;
+                top: 33%;
+                left: 50%;
+                transform: translateX(-33%);
+            }
+
+            &__stars {
+                width: 60px;
+                top: 27%;
+                left: 50%;
+                transform: translateX(-39%);
+            }
+
+            &__line1 {
+                width: 7px;
+                top: 41%;
+                left: 50%;
+                transform: translateX(-76%);
+            }
+
+            &__line2 {
+                width: 6px;
+                top: 40%;
+                left: 50%;
+                transform: translateX(168%);
+            }
+        }
+    }
+
+    .reviews {
+        &__title {
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+
+        &__return {
+            left: 36px;
+            height: 35px;
+            width: 35px;
+        }
+
+        &__button {
+            width: 80px;
+            height: 35px;
+            font-size: 8px;
+        }
+
+        &__rating {
+            &__title {
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+
+            &__wrapper {
+                flex-direction: column;
+            }
+
+            &__info {
+                gap: 35px;
+
+                &__all {
+                    &__rate {
+                        gap: 5px;
+                        margin-bottom: 20px;
+                        font-size: 10px;
+
+                        img {
+                            height: 9px;
+                        }
+                    }
+
+                    &__5 {
+                        width: 35px;
+                    }
+                }
+
+                &__list {
+                    li {
+                        gap: 5px;
+                        margin-bottom: 0px;
+                        font-size: 10px;
+
+                        img {
+                            width: 70px;
+                        }
+                    }
+
+                    &__scale {
+                        width: 70px;
+                        height: 10px;
+                    }
+
+                    &__scale-mod {
+                        width: 70px;
+                        height: 10px;
+                    }
+                }
+            }
+
+            &__coment {
+                margin-top: 70px;
+                margin-bottom: 0px;
+
+                &__title {
+                    font-size: 10px;
+                }
+
+                &__sort {
+
+                    select {
+                        width: 120px;
+                        height: 25px;
+                        padding: 0px 18px 0px 12px;
+                    }
+                }
+            }
+
+            &__response {
+                margin-top: 15px;
+                margin-bottom: 15px;
+
+                &__info {
+                    gap: 5px;
+                    align-items: center;
+
+                    &__avatar {
+                        width: 50px;
+                    }
+
+                    &__rate {
+                        height: 10px;
+                        margin-top: 5px;
+                    }
+
+                    &__name {
+                        margin-top: 0px;
+                        font-size: 12px;
+                    }
+
+                    &__title {
+                        font-size: 12px;
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                    }
+
+                    &__text {
+                        font-size: 12px;
+                    }
+                }
+
+                &__button {
+                    font-size: 12px;
+                    width: 120px;
+                    height: 40px;
+                }
+            }
+
+            &__catalog {
+
+                &__title {
+                    margin-bottom: 20px;
+                    width: 230px;
+                }
+
+                &__wrapper {
+                    gap: 15px;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+
+                &__item {
+                    width: 230px;
+
+                    &__img {
+                        width: 230px;
+                    }
+
+                    &__title {
+                        font-size: 14px;
+                        margin-top: 15px;
+                        margin-bottom: 10px;
+                    }
+
+                    &__rate {
+                        gap: 10px;
+                        font-size: 14px;
+                        margin-bottom: 15px;
+
+                        img {
+                            height: 12px;
+                        }
+                    }
+
+                    &__price {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

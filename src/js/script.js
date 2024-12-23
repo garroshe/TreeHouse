@@ -299,10 +299,14 @@ function changeAdv() {
     oldAdvLeft.textContent = advLeftTexts[index];
     oldAdvRight.textContent = advRightTexts[index];
 
-    // Змінюємо індекс (0 -> 1 -> 0 ...)
     index = (index + 1) % advLeftTexts.length;
 
     setTimeout(changeAdv, 3000);
 }
 
 setTimeout(changeAdv, 3000);
+
+
+
+
+
