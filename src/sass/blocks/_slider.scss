@@ -1,81 +1,79 @@
 .slick-track {
-    display: flex;
+  display: flex;
 }
 
 .slick-list {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-
 .carousel {
-    width: 100%;
+  width: 100%;
 }
 
 .carousel .slick-arrow {
-    position: absolute;
-    top: 320px;
-    font-size: 0;
-    width: 32px;
-    height: 32px;
-    z-index: 20;
-    border: none;
-    outline: none;
+  position: absolute;
+  top: 320px;
+  font-size: 0;
+  width: 32px;
+  height: 32px;
+  z-index: 20;
+  border: none;
+  outline: none;
 }
 
 .carousel .slick-arrow.slick-prev {
-    right: 200px;
-    background: transparent;
-    background-image: url('../../icons/rowr.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
+  right: 200px;
+  background: transparent;
+  background-image: url("../../icons/rowr.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
 
-    &:hover {
-        background-image: url('../../icons/rowl.svg');
-        transform: rotate(180deg);
-    }
+  &:hover {
+    background-image: url("../../icons/rowl.svg");
+    transform: rotate(180deg);
+  }
 }
 
-
 .carousel .slick-arrow.slick-next {
-    right: 160px;
-    background: transparent;
-    background-image: url('../../icons/rowr.svg');
-    transform: rotate(180deg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
+  right: 160px;
+  background: transparent;
+  background-image: url("../../icons/rowr.svg");
+  transform: rotate(180deg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
 
-    &:hover {
-        background-image: url('../../icons/rowl.svg');
-        transform: rotate(360deg);
-    }
+  &:hover {
+    background-image: url("../../icons/rowl.svg");
+    transform: rotate(360deg);
+  }
 }
 
 .carousel .slick-dots {
-    position: absolute;
-    bottom: -70px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    li {
-        list-style: none;
-    }
+  li {
+    list-style: none;
+  }
 
-    button {
-        font-size: 0;
-        width: 92px;
-        height: 2px;
-        border: none;
-        border: 2px solid rgba(51, 65, 57, 0.3);
-    }
+  button {
+    font-size: 0;
+    width: 92px;
+    height: 2px;
+    border: none;
+    border: 2px solid rgba(51, 65, 57, 0.3);
+  }
 }
 
 .carousel .slick-dots li.slick-active button {
-    border: 2px solid rgb(80, 115, 95);
+  border: 2px solid rgb(80, 115, 95);
 }

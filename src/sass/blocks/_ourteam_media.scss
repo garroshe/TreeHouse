@@ -1,1165 +1,1144 @@
 @media (max-width: 1200px) {
-    .container {
-        max-width: 960px;
+  .container {
+    max-width: 960px;
+  }
+
+  .track {
+    .header {
+      header {
+        justify-content: space-around;
+      }
     }
-
-    .track {
-        .header {
-            header {
-                justify-content: space-around;
-            }
-        }
-    }
-
-    .about {
-        &__wrapper {
-            grid-template-columns: 350px 260px;
-            gap: 30px;
-
-            &__img {
-                width: 350px;
-            }
-
-            &__info {
-                padding: 20px 0 27px 0;
-
-                &__title {
-                    font-size: 40px;
-                }
-
-                &__subtitle {
-                    font-size: 12px;
-                    margin-top: 5px;
-                    margin-bottom: 40px;
-                }
-
-                &__images {
-                    width: 150px;
-                    margin-bottom: 25px;
-
-
-                    .about__circle {
-                        width: 90px;
-                    }
-
-                    .about__short {
-                        top: 10px;
-                        right: 65px;
-                        width: 70px;
-                    }
-
-                    .about__arow {
-                        top: -30px;
-                        right: 10px;
-                        width: 60px;
-                    }
-                }
-
-                p {
-                    font-size: 12px;
-                    margin-bottom: 10px;
-                }
-            }
-        }
-
-        &__question {
-            top: 24%;
-            right: -75px;
-            font-size: 26px;
-
-            div {
-                margin-bottom: -10px;
-            }
-
-            &-mod {
-                transform: translateY(-35%);
-            }
-
-            .mission {
-                margin-top: 40px;
-            }
-        }
-
-        &__sun {
-            top: 50px;
-            right: 160px;
-        }
-
-        &__leaf {
-            top: 45%;
-            left: 100px;
-        }
-
-        &__paper {
-            width: 500px;
-        }
-
-        .dad-and-child {
-            top: 50%;
-            right: 18%;
-
-            &__dad {
-                width: 45px;
-                right: 60px;
-            }
-
-            &__child {
-                width: 40px;
-            }
-        }
-
-        .balloon {
-            top: -205px;
-            right: -15px;
-
-            &__line1 {
-                width: 90px;
-                top: 111px;
-                right: -37px;
-            }
-
-            &__line2 {
-                right: 3px;
-                width: 20px;
-            }
-
-            &__line3 {
-                width: 25px;
-            }
-
-            &__line4 {
-                width: 30px;
-            }
-        }
-    }
-
-    .vision {
-        &__wrapper {
-            grid-template-rows: 200px 470px;
-            gap: 80px;
-        }
-
-        &__info {
-            grid-template-columns: 250px 250px;
-            gap: 60px;
-
-            &__subtitle {
-                font-size: 12px;
-            }
-
-            &__title {
-                font-size: 35px;
-                margin: 5px 0;
-            }
-
-            &__descr {
-                font-size: 12px;
-            }
-
-            &__text {
-                margin-top: 20px;
-
-                p {
-                    font-size: 12px;
-                    margin-bottom: 5px;
-                }
-            }
-        }
-
-        &__img {
-            grid-template-rows: 40px 420px;
-            gap: 5px;
-
-
-        }
-
-        .vision__img__position {
-            .vision__img__position__img {
-                width: 80px;
-                top: 45%;
-            }
-        }
-
-        &__descr {
-            grid-template-columns: 200px 150px;
-            font-size: 12px;
-        }
-
-        .position__leaf2 {
-            top: -20px;
-            right: 120px;
-            width: 170px;
-        }
-
-        .position__leaf1 {
-            top: 160px;
-            right: 160px;
-            width: 80px;
-        }
-    }
-
-    .missions {
-        &__wrapper {
-            gap: 100px;
-            grid-template-columns: 350px 320px;
-
-        }
-
-        &__info {
-            &__subtitle {
-                font-size: 12px;
-            }
-
-            &__title {
-                font-size: 40px;
-                margin: 5px 0;
-            }
-
-            &__descr {
-                font-size: 12px;
-            }
-
-            &__text {
-                font-size: 12px;
-                margin-top: 15px;
-                margin-bottom: 90px;
-            }
-
-            img {
-                width: 350px;
-            }
-        }
-
-        &__position__img {
-            top: 180px;
-
-            &__tree {
-                bottom: -66px;
-                right: -55px;
-                width: 110px;
-            }
-
-            &__walking {
-                width: 220px;
-            }
-        }
-
-        &__list {
-            margin-top: 270px;
-
-            &__title {
-                font-size: 16px;
-                margin-bottom: 20px;
-            }
-
-            ul {
-                li {
-                    margin-bottom: 20px;
-
-                    img {
-                        width: 20px;
-                        height: 35px;
-                    }
-                }
-            }
-
-            &__signature {
-                margin-top: 20px;
-                width: 250px;
-            }
-        }
-    }
-
-    .chat {
-        &__img {
-            img {
-                width: 500px;
-            }
-        }
-
-        &__wrapper {
-            grid-template-columns: 300px 500px;
-        }
-
-        &__info {
-            &__title {
-                font-size: 40px;
-            }
-
-            &__subtitle {
-                font-size: 12px;
-            }
-
-            p {
-                font-size: 12px;
-            }
-        }
-
-        &__button {
-            width: 140px;
-        }
-
-        &__return {
-            left: 80px;
-        }
-
-        &__position {
-            width: 150px;
-        }
-    }
-
-    .press {
-        &__info {
-            width: 350px;
-
-            &__title {
-                font-size: 40px;
-            }
-
-            &__text {
-                font-size: 16px;
-                margin-top: 20px;
-                margin-bottom: 30px;
-            }
-
-            &__more {
-                font-size: 12px;
-                margin-bottom: 60px;
-
-                &::after {
-                    width: 77px;
-                }
-            }
-
-            &__logo {
-                gap: 40px;
-
-                &__motherly {
-                    &-elips {
-                        width: 150px;
-                    }
-
-                    &-logo {
-                        top: 13px;
-                        width: 100px;
-                    }
-                }
-
-                &__west {
-                    width: 150px;
-                }
-            }
-        }
-
-        &__plane {
-            width: 50px;
-            top: 17%;
-            right: 193px;
-        }
-
-        &__line1 {
-            top: 22%;
-            right: 237px;
-        }
-    }
-
-    .additionally {
-        &__wrapper {
-            grid-template-columns: 380px 450px;
-        }
-
-        &__magic {
-            width: 80px;
-        }
+  }
+
+  .about {
+    &__wrapper {
+      grid-template-columns: 350px 260px;
+      gap: 30px;
+
+      &__img {
+        width: 350px;
+      }
+
+      &__info {
+        padding: 20px 0 27px 0;
 
         &__title {
-            font-size: 18px;
-            margin-top: 15px;
-            margin-bottom: 110px;
+          font-size: 40px;
         }
 
         &__subtitle {
-            font-size: 12px;
-            margin-bottom: 10px;
+          font-size: 12px;
+          margin-top: 5px;
+          margin-bottom: 40px;
         }
 
-        &__text {
-            font-size: 25px;
+        &__images {
+          width: 150px;
+          margin-bottom: 25px;
+
+          .about__circle {
+            width: 90px;
+          }
+
+          .about__short {
+            top: 10px;
+            right: 65px;
+            width: 70px;
+          }
+
+          .about__arow {
+            top: -30px;
+            right: 10px;
+            width: 60px;
+          }
         }
 
-        .additionally__img {
-            width: 450px;
+        p {
+          font-size: 12px;
+          margin-bottom: 10px;
         }
+      }
     }
+
+    &__question {
+      top: 24%;
+      right: -75px;
+      font-size: 26px;
+
+      div {
+        margin-bottom: -10px;
+      }
+
+      &-mod {
+        transform: translateY(-35%);
+      }
+
+      .mission {
+        margin-top: 40px;
+      }
+    }
+
+    &__sun {
+      top: 50px;
+      right: 160px;
+    }
+
+    &__leaf {
+      top: 45%;
+      left: 100px;
+    }
+
+    &__paper {
+      width: 500px;
+    }
+
+    .dad-and-child {
+      top: 50%;
+      right: 18%;
+
+      &__dad {
+        width: 45px;
+        right: 60px;
+      }
+
+      &__child {
+        width: 40px;
+      }
+    }
+
+    .balloon {
+      top: -205px;
+      right: -15px;
+
+      &__line1 {
+        width: 90px;
+        top: 111px;
+        right: -37px;
+      }
+
+      &__line2 {
+        right: 3px;
+        width: 20px;
+      }
+
+      &__line3 {
+        width: 25px;
+      }
+
+      &__line4 {
+        width: 30px;
+      }
+    }
+  }
+
+  .vision {
+    &__wrapper {
+      grid-template-rows: 200px 470px;
+      gap: 80px;
+    }
+
+    &__info {
+      grid-template-columns: 250px 250px;
+      gap: 60px;
+
+      &__subtitle {
+        font-size: 12px;
+      }
+
+      &__title {
+        font-size: 35px;
+        margin: 5px 0;
+      }
+
+      &__descr {
+        font-size: 12px;
+      }
+
+      &__text {
+        margin-top: 20px;
+
+        p {
+          font-size: 12px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+
+    &__img {
+      grid-template-rows: 40px 420px;
+      gap: 5px;
+    }
+
+    .vision__img__position {
+      .vision__img__position__img {
+        width: 80px;
+        top: 45%;
+      }
+    }
+
+    &__descr {
+      grid-template-columns: 200px 150px;
+      font-size: 12px;
+    }
+
+    .position__leaf2 {
+      top: -20px;
+      right: 120px;
+      width: 170px;
+    }
+
+    .position__leaf1 {
+      top: 160px;
+      right: 160px;
+      width: 80px;
+    }
+  }
+
+  .missions {
+    &__wrapper {
+      gap: 100px;
+      grid-template-columns: 350px 320px;
+    }
+
+    &__info {
+      &__subtitle {
+        font-size: 12px;
+      }
+
+      &__title {
+        font-size: 40px;
+        margin: 5px 0;
+      }
+
+      &__descr {
+        font-size: 12px;
+      }
+
+      &__text {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 90px;
+      }
+
+      img {
+        width: 350px;
+      }
+    }
+
+    &__position__img {
+      top: 180px;
+
+      &__tree {
+        bottom: -66px;
+        right: -55px;
+        width: 110px;
+      }
+
+      &__walking {
+        width: 220px;
+      }
+    }
+
+    &__list {
+      margin-top: 270px;
+
+      &__title {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        li {
+          margin-bottom: 20px;
+
+          img {
+            width: 20px;
+            height: 35px;
+          }
+        }
+      }
+
+      &__signature {
+        margin-top: 20px;
+        width: 250px;
+      }
+    }
+  }
+
+  .chat {
+    &__img {
+      img {
+        width: 500px;
+      }
+    }
+
+    &__wrapper {
+      grid-template-columns: 300px 500px;
+    }
+
+    &__info {
+      &__title {
+        font-size: 40px;
+      }
+
+      &__subtitle {
+        font-size: 12px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    &__button {
+      width: 140px;
+    }
+
+    &__return {
+      left: 80px;
+    }
+
+    &__position {
+      width: 150px;
+    }
+  }
+
+  .press {
+    &__info {
+      width: 350px;
+
+      &__title {
+        font-size: 40px;
+      }
+
+      &__text {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+
+      &__more {
+        font-size: 12px;
+        margin-bottom: 60px;
+
+        &::after {
+          width: 77px;
+        }
+      }
+
+      &__logo {
+        gap: 40px;
+
+        &__motherly {
+          &-elips {
+            width: 150px;
+          }
+
+          &-logo {
+            top: 13px;
+            width: 100px;
+          }
+        }
+
+        &__west {
+          width: 150px;
+        }
+      }
+    }
+
+    &__plane {
+      width: 50px;
+      top: 17%;
+      right: 193px;
+    }
+
+    &__line1 {
+      top: 22%;
+      right: 237px;
+    }
+  }
+
+  .additionally {
+    &__wrapper {
+      grid-template-columns: 380px 450px;
+    }
+
+    &__magic {
+      width: 80px;
+    }
+
+    &__title {
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 110px;
+    }
+
+    &__subtitle {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      font-size: 25px;
+    }
+
+    .additionally__img {
+      width: 450px;
+    }
+  }
 }
-
-
 
 @media (max-width: 992px) {
-    .container {
-        max-width: 720px;
-    }
-
-    .track .header header {
-        justify-content: space-around;
-    }
-
-    .about {
-        padding-top: 70px;
-
-        &__wrapper {
-            grid-template-columns: 250px 240px;
-            gap: 20px;
-
-            &__info {
-                padding: 10px 0 0px 0;
-
-                &__title {
-                    font-size: 30px;
-                    margin-bottom: 0;
-                }
-
-                &__subtitle {
-                    font-size: 10px;
-                    margin-top: 5px;
-                    margin-bottom: 20px;
-                }
-
-                &__images {
-                    margin-bottom: 5px;
-
-                    .about__circle {
-                        width: 70px;
-                    }
-
-                    .about__short {
-                        top: 8px;
-                        right: 84px;
-                        width: 50px;
-                    }
-
-                    .about__arow {
-                        top: -20px;
-                        right: 40px;
-                        width: 45px;
-                    }
-                }
-
-                p {
-                    font-size: 12px;
-                    margin-bottom: 5px;
-                }
-            }
-
-            &__img {
-                width: 250px;
-            }
-        }
-
-        &__question {
-            top: 19%;
-            right: -19px;
-            font-size: 20px;
-
-            &-mod {
-                transform: translateY(0%);
-            }
-
-            .mission {
-                margin-bottom: -20px;
-            }
-
-            div {
-                margin-bottom: -20px;
-            }
-        }
-
-        &__sun {
-            top: 30px;
-            right: 130px;
-
-            &__line1 {
-                width: 70px;
-            }
-
-            &__line2 {
-                width: 20px;
-            }
-
-            &__line4 {
-                width: 3px;
-            }
-
-            &__line3 {
-                width: 5px;
-            }
-
-            &__line6 {
-                top: 9px;
-                left: 7px;
-            }
-
-            &__line7 {
-                top: 6px;
-                left: 14px;
-            }
-        }
-
-        &__paper {
-            margin-top: 180px;
-            width: 400px;
-        }
-
-        &__leaf {
-            width: 100px;
-            top: 50%;
-        }
-
-        .dad-and-child {
-            top: 57%;
-            right: 24%;
-
-            &__dad {
-                width: 35px;
-                right: 50px;
-            }
-
-            &__child {
-                width: 35px;
-            }
-        }
-
-        .balloon {
-            top: -205px;
-            right: -15px;
-
-            &__line1 {
-                width: 80px;
-                top: 139px;
-                right: -33px;
-            }
-
-            &__line2 {
-                width: 15px;
-            }
-
-            &__line3 {
-                width: 20px;
-            }
-
-            &__line4 {
-                width: 25px;
-            }
-        }
-    }
-
-    .vision {
-
-        &__wrapper {
-            grid-template-rows: 200px 280px;
-            gap: 70px;
-        }
-
-        &__info {
-            grid-template-columns: 230px 230px;
-            gap: 60px;
-
-            &__subtitle {
-                font-size: 10px;
-            }
-
-            &__title {
-                font-size: 30px;
-            }
-
-            &__descr {
-                font-size: 10px;
-            }
-
-
-        }
-
-        &__img {
-            grid-template-rows: 40px 230px;
-        }
-
-        .vision__img__position {
-            .vision__img__position__img {
-                width: 60px;
-                top: 45%;
-            }
-        }
-
-        .position__leaf2 {
-            top: -50px;
-            width: 160px;
-            left: 40px;
-        }
-
-        .position__leaf1 {
-            top: 75px;
-            right: 100px;
-            width: 70px;
-        }
-    }
-
-    .missions {
-        padding-bottom: 190px;
-
-        &__wrapper {
-            gap: 50px;
-            grid-template-columns: 270px 200px;
-        }
-
-        &__info {
-            &__subtitle {
-                font-size: 10px;
-            }
-
-            &__title {
-                font-size: 30px;
-            }
-
-            &__descr {
-                font-size: 10px;
-            }
-
-            &__text {
-                font-size: 12px;
-                margin-top: 15px;
-                margin-bottom: 70px;
-            }
-
-            img {
-                width: 270px;
-            }
-        }
-
-        &__list {
-            margin-top: 270px;
-
-            &__title {
-                font-size: 14px;
-                margin-bottom: 15px;
-            }
-
-            ul {
-                li {
-                    margin-bottom: 10px;
-                    font-size: 12px;
-
-                    img {
-                        width: 15px;
-                        height: 30px;
-                    }
-                }
-            }
-
-            &__signature {
-                margin-top: 0px;
-                width: 150px;
-            }
-        }
-
-        &__position__img {
-            top: 200px;
-
-            &__tree {
-                bottom: -40px;
-                right: -30px;
-                width: 70px;
-            }
-
-            &__walking {
-                width: 150px;
-            }
-        }
-    }
-
-    .chat {
-        &__wrapper {
-            grid-template-columns: 200px 290px;
-        }
-
-        &__info {
-            margin-top: 5px;
-
-            &__title {
-                font-size: 35px;
-            }
-
-            &__subtitle {
-                font-size: 10px;
-            }
-
-            p {
-                font-size: 10px;
-            }
-        }
-
-        &__button {
-            width: 120px;
-            height: 40px;
-            margin-top: 30px;
-        }
-
-        &__return {
-            left: 65px;
-            height: 40px;
-            width: 40px;
-        }
-
-        &__img {
-            img {
-                width: 300px;
-            }
-        }
-
-        &__position {
-            width: 120px;
-        }
-    }
-
-    .press {
-
-        &__plane {
-            width: 40px;
-            top: 25%;
-            right: 160px;
-        }
-
-        &__line1 {
-            width: 70px;
-            top: 29%;
-            right: 198px;
-        }
-
-        &__line2 {
-            left: 31%;
-            bottom: 44%;
-            width: 70px;
-        }
-    }
-
-    .additionally {
-        padding-bottom: 100px;
-
-        &__wrapper {
-            grid-template-columns: 250px 250px;
-            align-items: end;
-        }
-
-        &__magic {
-            width: 70px;
-        }
+  .container {
+    max-width: 720px;
+  }
+
+  .track .header header {
+    justify-content: space-around;
+  }
+
+  .about {
+    padding-top: 70px;
+
+    &__wrapper {
+      grid-template-columns: 250px 240px;
+      gap: 20px;
+
+      &__info {
+        padding: 10px 0 0px 0;
 
         &__title {
-            font-size: 14px;
-            margin-top: 15px;
-            margin-bottom: 80px;
+          font-size: 30px;
+          margin-bottom: 0;
         }
 
         &__subtitle {
-            font-size: 10px;
-            margin-bottom: 10px;
+          font-size: 10px;
+          margin-top: 5px;
+          margin-bottom: 20px;
         }
 
-        &__text {
-            font-size: 16px;
+        &__images {
+          margin-bottom: 5px;
+
+          .about__circle {
+            width: 70px;
+          }
+
+          .about__short {
+            top: 8px;
+            right: 84px;
+            width: 50px;
+          }
+
+          .about__arow {
+            top: -20px;
+            right: 40px;
+            width: 45px;
+          }
         }
 
-        .additionally__img {
-            width: 250px;
+        p {
+          font-size: 12px;
+          margin-bottom: 5px;
         }
+      }
+
+      &__img {
+        width: 250px;
+      }
     }
 
+    &__question {
+      top: 19%;
+      right: -19px;
+      font-size: 20px;
+
+      &-mod {
+        transform: translateY(0%);
+      }
+
+      .mission {
+        margin-bottom: -20px;
+      }
+
+      div {
+        margin-bottom: -20px;
+      }
+    }
+
+    &__sun {
+      top: 30px;
+      right: 130px;
+
+      &__line1 {
+        width: 70px;
+      }
+
+      &__line2 {
+        width: 20px;
+      }
+
+      &__line4 {
+        width: 3px;
+      }
+
+      &__line3 {
+        width: 5px;
+      }
+
+      &__line6 {
+        top: 9px;
+        left: 7px;
+      }
+
+      &__line7 {
+        top: 6px;
+        left: 14px;
+      }
+    }
+
+    &__paper {
+      margin-top: 180px;
+      width: 400px;
+    }
+
+    &__leaf {
+      width: 100px;
+      top: 50%;
+    }
+
+    .dad-and-child {
+      top: 57%;
+      right: 24%;
+
+      &__dad {
+        width: 35px;
+        right: 50px;
+      }
+
+      &__child {
+        width: 35px;
+      }
+    }
+
+    .balloon {
+      top: -205px;
+      right: -15px;
+
+      &__line1 {
+        width: 80px;
+        top: 139px;
+        right: -33px;
+      }
+
+      &__line2 {
+        width: 15px;
+      }
+
+      &__line3 {
+        width: 20px;
+      }
+
+      &__line4 {
+        width: 25px;
+      }
+    }
+  }
+
+  .vision {
+    &__wrapper {
+      grid-template-rows: 200px 280px;
+      gap: 70px;
+    }
+
+    &__info {
+      grid-template-columns: 230px 230px;
+      gap: 60px;
+
+      &__subtitle {
+        font-size: 10px;
+      }
+
+      &__title {
+        font-size: 30px;
+      }
+
+      &__descr {
+        font-size: 10px;
+      }
+    }
+
+    &__img {
+      grid-template-rows: 40px 230px;
+    }
+
+    .vision__img__position {
+      .vision__img__position__img {
+        width: 60px;
+        top: 45%;
+      }
+    }
+
+    .position__leaf2 {
+      top: -50px;
+      width: 160px;
+      left: 40px;
+    }
+
+    .position__leaf1 {
+      top: 75px;
+      right: 100px;
+      width: 70px;
+    }
+  }
+
+  .missions {
+    padding-bottom: 190px;
+
+    &__wrapper {
+      gap: 50px;
+      grid-template-columns: 270px 200px;
+    }
+
+    &__info {
+      &__subtitle {
+        font-size: 10px;
+      }
+
+      &__title {
+        font-size: 30px;
+      }
+
+      &__descr {
+        font-size: 10px;
+      }
+
+      &__text {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 70px;
+      }
+
+      img {
+        width: 270px;
+      }
+    }
+
+    &__list {
+      margin-top: 270px;
+
+      &__title {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        li {
+          margin-bottom: 10px;
+          font-size: 12px;
+
+          img {
+            width: 15px;
+            height: 30px;
+          }
+        }
+      }
+
+      &__signature {
+        margin-top: 0px;
+        width: 150px;
+      }
+    }
+
+    &__position__img {
+      top: 200px;
+
+      &__tree {
+        bottom: -40px;
+        right: -30px;
+        width: 70px;
+      }
+
+      &__walking {
+        width: 150px;
+      }
+    }
+  }
+
+  .chat {
+    &__wrapper {
+      grid-template-columns: 200px 290px;
+    }
+
+    &__info {
+      margin-top: 5px;
+
+      &__title {
+        font-size: 35px;
+      }
+
+      &__subtitle {
+        font-size: 10px;
+      }
+
+      p {
+        font-size: 10px;
+      }
+    }
+
+    &__button {
+      width: 120px;
+      height: 40px;
+      margin-top: 30px;
+    }
+
+    &__return {
+      left: 65px;
+      height: 40px;
+      width: 40px;
+    }
+
+    &__img {
+      img {
+        width: 300px;
+      }
+    }
+
+    &__position {
+      width: 120px;
+    }
+  }
+
+  .press {
+    &__plane {
+      width: 40px;
+      top: 25%;
+      right: 160px;
+    }
+
+    &__line1 {
+      width: 70px;
+      top: 29%;
+      right: 198px;
+    }
+
+    &__line2 {
+      left: 31%;
+      bottom: 44%;
+      width: 70px;
+    }
+  }
+
+  .additionally {
+    padding-bottom: 100px;
+
+    &__wrapper {
+      grid-template-columns: 250px 250px;
+      align-items: end;
+    }
+
+    &__magic {
+      width: 70px;
+    }
+
+    &__title {
+      font-size: 14px;
+      margin-top: 15px;
+      margin-bottom: 80px;
+    }
+
+    &__subtitle {
+      font-size: 10px;
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      font-size: 16px;
+    }
+
+    .additionally__img {
+      width: 250px;
+    }
+  }
 }
-
-
-
 
 @media (max-width: 768px) {
-    .container {
-        max-width: 540px;
-        padding: 0 10px;
+  .container {
+    max-width: 540px;
+    padding: 0 10px;
+  }
+
+  .track .header header {
+    justify-content: center;
+  }
+
+  .vision {
+    &__wrapper {
+      grid-template-rows: 270px 260px;
+    }
+  }
+
+  .missions {
+    &__position__img {
+      right: 70px;
+    }
+  }
+
+  .chat {
+    margin-top: 100px;
+
+    &__position {
+      width: 100px;
+    }
+  }
+
+  .press {
+    padding-top: 100px;
+
+    &__info {
+      width: 300px;
+
+      &__title {
+        font-size: 30px;
+      }
+
+      &__text {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+      }
+
+      &__more {
+        font-size: 10px;
+        margin-bottom: 50px;
+
+        &::after {
+          width: 63px;
+        }
+      }
+
+      &__logo {
+        gap: 20px;
+        margin-bottom: 120px;
+
+        &__motherly {
+          &-elips {
+            width: 120px;
+          }
+
+          &-logo {
+            top: 11px;
+            width: 80px;
+          }
+        }
+
+        &__west {
+          width: 130px;
+        }
+      }
     }
 
-    .track .header header {
-        justify-content: center;
+    &__line1 {
+      width: 60px;
+      top: 22%;
+      right: 150px;
     }
 
-    .vision {
-        &__wrapper {
-            grid-template-rows: 270px 260px;
-        }
+    &__plane {
+      width: 35px;
+      top: 18%;
+      right: 115px;
     }
 
-    .missions {
-        &__position__img {
-            right: 70px;
-        }
+    &__line2 {
+      left: 28%;
+      bottom: 50%;
+      width: 60px;
     }
-
-    .chat {
-        margin-top: 100px;
-
-        &__position {
-            width: 100px;
-        }
-    }
-
-    .press {
-
-        padding-top: 100px;
-
-        &__info {
-            width: 300px;
-
-            &__title {
-                font-size: 30px;
-            }
-
-            &__text {
-                font-size: 14px;
-                margin-top: 15px;
-                margin-bottom: 20px;
-            }
-
-            &__more {
-                font-size: 10px;
-                margin-bottom: 50px;
-
-                &::after {
-                    width: 63px;
-                }
-            }
-
-            &__logo {
-                gap: 20px;
-                margin-bottom: 120px;
-
-                &__motherly {
-                    &-elips {
-                        width: 120px;
-                    }
-
-                    &-logo {
-                        top: 11px;
-                        width: 80px;
-                    }
-                }
-
-                &__west {
-                    width: 130px;
-                }
-            }
-        }
-
-        &__line1 {
-            width: 60px;
-            top: 22%;
-            right: 150px;
-        }
-
-        &__plane {
-            width: 35px;
-            top: 18%;
-            right: 115px;
-        }
-
-        &__line2 {
-            left: 28%;
-            bottom: 50%;
-            width: 60px;
-        }
-    }
-
-
+  }
 }
 
-
 @media (max-width: 576px) {
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
 
-    .about {
+  .about {
+    &__wrapper {
+      grid-template-columns: 300px;
+      gap: 20px;
+      justify-content: center;
 
-        &__wrapper {
-            grid-template-columns: 300px;
-            gap: 20px;
-            justify-content: center;
+      &__img {
+        order: 2;
+        width: 300px;
+      }
 
-            &__img {
-                order: 2;
-                width: 300px;
-            }
-
-            &__info {
-                padding: 0;
-
-                &__subtitle {
-                    margin-bottom: 40px;
-                }
-
-                &__images {
-                    margin-left: 10%;
-                    margin-bottom: 30px;
-                }
-            }
-        }
-
-        &__question {
-            top: 23%;
-            right: 52px;
-        }
-
-        &__sun {
-            right: 20px;
-        }
-
-        &__paper {
-            width: 280px;
-        }
-
-        .dad-and-child {
-            top: 76%;
-            right: 24%;
-
-            &__dad {
-                width: 30px;
-                right: 35px;
-            }
-
-            &__child {
-                width: 30px;
-            }
-        }
-
-        .balloon {
-            top: -230px;
-            right: -7px;
-
-            &__line1 {
-                width: 70px;
-                top: 171px;
-                right: -28px;
-            }
-
-            &__line2 {
-                width: 10px;
-            }
-
-            &__line3 {
-                width: 15px;
-            }
-
-            &__line4 {
-                width: 20px;
-            }
-        }
-
-        &__leaf {
-            left: -26px;
-            width: 90px;
-            top: 63%;
-        }
-    }
-
-    .vision {
-
-        padding-top: 130px;
-
-        &__wrapper {
-            grid-template-rows: 270px 160px;
-            gap: 50px;
-        }
-
-        &__info {
-            grid-template-columns: 300px;
-            gap: 10px;
-
-            &__subtitle {
-                font-size: 12px;
-            }
-
-            &__title {
-                font-size: 35px;
-            }
-
-            &__descr {
-                font-size: 12px;
-            }
-
-            &__text {
-                margin-top: 20px;
-
-                p {
-                    font-size: 14px;
-                    margin-bottom: 10px;
-                }
-            }
-        }
-
-        &__img {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-
-        &__descr {
-            grid-template-columns: 139px 130px;
-            font-size: 8px;
-            align-items: center;
-            line-height: 110%;
-
-            &-mod {
-                align-items: center;
-            }
-
-            &__img {
-                width: 25px;
-            }
-        }
-
-        .vision__img__position {
-            .vision__img__position__img {
-                width: 40px;
-                top: 40%;
-            }
-        }
-
-        .position__leaf1 {
-            top: 120px;
-            right: 30px;
-            width: 60px;
-        }
-
-        .position__leaf2 {
-            top: 10px;
-            width: 100px;
-            left: -10px;
-        }
-    }
-
-    .missions {
-        padding-top: 120px;
-        padding-bottom: 110px;
-
-        &__wrapper {
-            grid-template-columns: 300px;
-            justify-content: center;
-        }
-
-        &__info {
-            &__subtitle {
-                font-size: 12px;
-            }
-
-            &__title {
-                font-size: 35px;
-                margin: 10px 0;
-            }
-
-            &__descr {
-                font-size: 12px;
-            }
-
-            &__text {
-                font-size: 12px;
-            }
-
-            img {
-                width: 100%;
-            }
-        }
-
-        &__list {
-            margin-top: 0px;
-
-            &__signature {
-                position: relative;
-                z-index: 2;
-                margin-top: 50%;
-                transform: rotate(25deg);
-                margin-left: 20%;
-            }
-        }
-
-        &__position__img {
-            top: auto;
-            bottom: 110px;
-            right: 40px;
-        }
-    }
-
-
-    .chat {
-        &__wrapper {
-            grid-template-columns: 300px;
-            gap: 50px;
-            justify-content: center;
-        }
-
-        &__info {
-            margin: 0;
-
-            &__title {
-                font-size: 40px;
-            }
-
-            &__subtitle {
-                font-size: 12px;
-            }
-
-            p {
-                font-size: 12px;
-            }
-        }
-    }
-
-    .press {
-        &__line2 {
-            left: 15%;
-        }
-
-        &__line1 {
-            top: 12%;
-            right: 112px;
-        }
-
-        &__plane {
-            top: 8%;
-            right: 80px;
-        }
-    }
-
-    .additionally {
-        &__wrapper {
-            grid-template-columns: 300px;
-            align-items: normal;
-            justify-content: center;
-            gap: 40px;
-        }
-
-        &__title {
-            font-size: 16px;
-            margin-top: 15px;
-            margin-bottom: 80px;
-        }
+      &__info {
+        padding: 0;
 
         &__subtitle {
-            font-size: 12px;
-            margin-bottom: 10px;
+          margin-bottom: 40px;
         }
 
-        &__text {
-            font-size: 18px;
+        &__images {
+          margin-left: 10%;
+          margin-bottom: 30px;
         }
-
-        .additionally__img {
-            width: 100%;
-        }
+      }
     }
+
+    &__question {
+      top: 23%;
+      right: 52px;
+    }
+
+    &__sun {
+      right: 20px;
+    }
+
+    &__paper {
+      width: 280px;
+    }
+
+    .dad-and-child {
+      top: 76%;
+      right: 24%;
+
+      &__dad {
+        width: 30px;
+        right: 35px;
+      }
+
+      &__child {
+        width: 30px;
+      }
+    }
+
+    .balloon {
+      top: -230px;
+      right: -7px;
+
+      &__line1 {
+        width: 70px;
+        top: 171px;
+        right: -28px;
+      }
+
+      &__line2 {
+        width: 10px;
+      }
+
+      &__line3 {
+        width: 15px;
+      }
+
+      &__line4 {
+        width: 20px;
+      }
+    }
+
+    &__leaf {
+      left: -26px;
+      width: 90px;
+      top: 63%;
+    }
+  }
+
+  .vision {
+    padding-top: 130px;
+
+    &__wrapper {
+      grid-template-rows: 270px 160px;
+      gap: 50px;
+    }
+
+    &__info {
+      grid-template-columns: 300px;
+      gap: 10px;
+
+      &__subtitle {
+        font-size: 12px;
+      }
+
+      &__title {
+        font-size: 35px;
+      }
+
+      &__descr {
+        font-size: 12px;
+      }
+
+      &__text {
+        margin-top: 20px;
+
+        p {
+          font-size: 14px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    &__img {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    &__descr {
+      grid-template-columns: 139px 130px;
+      font-size: 8px;
+      align-items: center;
+      line-height: 110%;
+
+      &-mod {
+        align-items: center;
+      }
+
+      &__img {
+        width: 25px;
+      }
+    }
+
+    .vision__img__position {
+      .vision__img__position__img {
+        width: 40px;
+        top: 40%;
+      }
+    }
+
+    .position__leaf1 {
+      top: 120px;
+      right: 30px;
+      width: 60px;
+    }
+
+    .position__leaf2 {
+      top: 10px;
+      width: 100px;
+      left: -10px;
+    }
+  }
+
+  .missions {
+    padding-top: 120px;
+    padding-bottom: 110px;
+
+    &__wrapper {
+      grid-template-columns: 300px;
+      justify-content: center;
+    }
+
+    &__info {
+      &__subtitle {
+        font-size: 12px;
+      }
+
+      &__title {
+        font-size: 35px;
+        margin: 10px 0;
+      }
+
+      &__descr {
+        font-size: 12px;
+      }
+
+      &__text {
+        font-size: 12px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    &__list {
+      margin-top: 0px;
+
+      &__signature {
+        position: relative;
+        z-index: 2;
+        margin-top: 50%;
+        transform: rotate(25deg);
+        margin-left: 20%;
+      }
+    }
+
+    &__position__img {
+      top: auto;
+      bottom: 110px;
+      right: 40px;
+    }
+  }
+
+  .chat {
+    &__wrapper {
+      grid-template-columns: 300px;
+      gap: 50px;
+      justify-content: center;
+    }
+
+    &__info {
+      margin: 0;
+
+      &__title {
+        font-size: 40px;
+      }
+
+      &__subtitle {
+        font-size: 12px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .press {
+    &__line2 {
+      left: 15%;
+    }
+
+    &__line1 {
+      top: 12%;
+      right: 112px;
+    }
+
+    &__plane {
+      top: 8%;
+      right: 80px;
+    }
+  }
+
+  .additionally {
+    &__wrapper {
+      grid-template-columns: 300px;
+      align-items: normal;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    &__title {
+      font-size: 16px;
+      margin-top: 15px;
+      margin-bottom: 80px;
+    }
+
+    &__subtitle {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+
+    .additionally__img {
+      width: 100%;
+    }
+  }
 }

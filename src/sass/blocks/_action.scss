@@ -1,80 +1,78 @@
 .action {
-    position: relative;
-    padding-bottom: 455px;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  padding-bottom: 455px;
+  display: flex;
+  justify-content: center;
 
-    &__wrapper {
-        display: grid;
-        grid-template-columns: 720px 720px;
-
-        &__descr {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 38px 203px 120px 203px;
-            width: 720px;
-            height: 560px;
-            background-color: #ADBBC4;
-
-        }
-
-        &__text {
-            color: $white-color ;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 140%;
-            text-align: center;
-        }
-    }
-
-    &__button {
-        &:hover {
-            text-decoration: none;
-        }
-    }
-
-    &__game {
-        height: 76px;
-    }
-
-    &__procent {
-        height: 64px;
-        margin-top: 29px;
-        margin-bottom: 12px;
-    }
-
-    &__button {
-        margin-top: 48px;
-        margin: 48px auto 0 auto;
-    }
-
-    &__main {
-        margin-top: 0;
-    }
-
-    &__position {
-        position: absolute;
-        bottom: -170px;
-
-    }
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 720px 720px;
 
     &__descr {
-        position: absolute;
-        bottom: 400px;
-        right: 300px;
-        width: 398px;
-        color: $green-color ;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 130%;
-        text-transform: uppercase;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 38px 203px 120px 203px;
+      width: 720px;
+      height: 560px;
+      background-color: #adbbc4;
     }
 
-    .star {
-        position: absolute;
-        top: -10px;
-        left: -26px;
+    &__text {
+      color: $white-color;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 140%;
+      text-align: center;
     }
+  }
+
+  &__button {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__game {
+    height: 76px;
+  }
+
+  &__procent {
+    height: 64px;
+    margin-top: 29px;
+    margin-bottom: 12px;
+  }
+
+  &__button {
+    margin-top: 48px;
+    margin: 48px auto 0 auto;
+  }
+
+  &__main {
+    margin-top: 0;
+  }
+
+  &__position {
+    position: absolute;
+    bottom: -170px;
+  }
+
+  &__descr {
+    position: absolute;
+    bottom: 400px;
+    right: 300px;
+    width: 398px;
+    color: $green-color;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+    text-transform: uppercase;
+  }
+
+  .star {
+    position: absolute;
+    top: -10px;
+    left: -26px;
+  }
 }

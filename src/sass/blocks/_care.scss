@@ -1,133 +1,128 @@
 .care {
-    position: relative;
-    padding: 100px 0 130px 0;
+  position: relative;
+  padding: 100px 0 130px 0;
 
-    &__wrapper {
-        position: relative;
+  &__wrapper {
+    position: relative;
+  }
+
+  &__subtitle {
+    color: $green-color;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    font-family: "Poppins", serif;
+    color: $green-color;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-bottom: 8px;
+  }
+
+  &__item {
+    width: 358px;
+
+    &__li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      margin-top: 32px;
     }
 
-    &__subtitle {
-        color: $green-color;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 100%;
-        text-transform: uppercase;
-        margin-bottom: 16px;
+    &__number {
+      color: $green-color;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 100%;
     }
 
     &__title {
-        font-family: "Poppins", serif;
+      color: $green-color;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 100%;
+      text-transform: uppercase;
+    }
+
+    &__text {
+      color: $green-color;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 140%;
+
+      a {
+        text-decoration: none;
         color: $green-color;
-        font-size: 48px;
-        font-weight: 400;
-        line-height: 100%;
-        margin-bottom: 8px;
+        border-bottom: 1px solid $green-color;
+      }
+    }
+  }
+
+  &__images {
+    position: relative;
+    width: 214px;
+    height: 248px;
+    margin-left: 320px;
+    margin-top: 108px;
+
+    &__img1 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 2;
     }
 
-
-    &__item {
-        width: 358px;
-
-        &__li {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 16px;
-            margin-top: 32px;
-        }
-
-
-        &__number {
-            color: $green-color;
-            font-size: 40px;
-            font-weight: 400;
-            line-height: 100%;
-        }
-
-        &__title {
-            color: $green-color;
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 100%;
-            text-transform: uppercase;
-        }
-
-        &__text {
-            color: $green-color;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 140%;
-
-            a {
-                text-decoration: none;
-                color: $green-color;
-                border-bottom: 1px solid $green-color;
-            }
-        }
+    &__img2 {
+      position: absolute;
+      top: 46px;
+      right: 158px;
+      z-index: 1;
     }
 
-    &__images {
-        position: relative;
-        width: 214px;
-        height: 248px;
-        margin-left: 320px;
-        margin-top: 108px;
-
-        &__img1 {
-            position: absolute;
-            top: 0;
-            right: 0;
-            z-index: 2;
-
-        }
-
-        &__img2 {
-            position: absolute;
-            top: 46px;
-            right: 158px;
-            z-index: 1;
-        }
-
-        &__img3 {
-            position: absolute;
-            top: 90px;
-            right: 276px;
-            z-index: 1;
-        }
-
-        &__img4 {
-            position: absolute;
-            top: 40px;
-            right: 296px;
-            z-index: 1;
-        }
-
-
-        &__img5 {
-            position: absolute;
-            top: 52px;
-            right: 320px;
-            z-index: 1;
-        }
-
+    &__img3 {
+      position: absolute;
+      top: 90px;
+      right: 276px;
+      z-index: 1;
     }
 
-    &__img {
-        position: absolute;
-        top: 0;
-        right: 0;
-
-        &__magic {
-            position: absolute;
-            z-index: 5;
-            top: -94px;
-            right: 6px;
-        }
+    &__img4 {
+      position: absolute;
+      top: 40px;
+      right: 296px;
+      z-index: 1;
     }
 
-    &__descr-second {
-        position: absolute;
-        top: 493px;
-        right: 35px;
+    &__img5 {
+      position: absolute;
+      top: 52px;
+      right: 320px;
+      z-index: 1;
     }
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    &__magic {
+      position: absolute;
+      z-index: 5;
+      top: -94px;
+      right: 6px;
+    }
+  }
+
+  &__descr-second {
+    position: absolute;
+    top: 493px;
+    right: 35px;
+  }
 }
