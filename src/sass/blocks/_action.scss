@@ -29,6 +29,12 @@
         }
     }
 
+    &__button {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
     &__game {
         height: 76px;
     }

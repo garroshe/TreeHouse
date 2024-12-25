@@ -1,0 +1,442 @@
+.shop {
+    margin-top: 86px;
+    padding-bottom: 160px;
+
+    &__bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/shop/main_bg.jpg') center center;
+        width: 100%;
+        height: 444px;
+        padding-top: 120px;
+    }
+
+    &__subtitle {
+        color: $white-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__title {
+        color: $white-color;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    #shop__select {
+
+        width: 230px;
+        height: 48px;
+        padding: 15px 18px 16px 12px;
+        box-sizing: border-box;
+        border: 1px solid $green-color;
+        border-radius: 8px;
+        background-color: $white-color !important;
+        color: $green-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: url('../icons/giftcard/arrowup.svg') no-repeat right 10px center;
+        background-size: 24px;
+        cursor: pointer;
+    }
+
+    &__sort {
+        margin-top: 56px;
+        margin-left: 70%;
+
+        label {
+            color: $green-color;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 100%;
+        }
+    }
+
+    &__menu {
+        width: 200px;
+        color: $green-color;
+        margin-top: 142px;
+
+        hr {
+            height: 1px;
+            border: none;
+            background-color: $green-color;
+            color: $green-color ;
+            box-sizing: border-box;
+        }
+
+        &__title {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: uppercase;
+            margin-bottom: 32px;
+        }
+
+        &__dropdownlist {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+
+            img {
+                transform: rotate(180deg);
+            }
+
+            &__title {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 100%;
+                letter-spacing: 0%;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+
+        &__list {
+            display: none;
+
+            li {
+                display: flex;
+                gap: 12px;
+                align-items: center;
+                list-style-type: none;
+                margin-bottom: 8px;
+                cursor: pointer;
+
+                input {
+                    width: 24px;
+                    height: 24px;
+                    margin: 0;
+                    accent-color: $green-color;
+                    cursor: pointer;
+                }
+
+
+
+                label {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 100%;
+                    margin: 0;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .shop__menu__list__active {
+            display: block;
+        }
+
+        .shop__menu__dropdownlist__active {
+            img {
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 200px auto;
+        gap: 120px;
+    }
+
+    &__item {
+        margin-top: 135px;
+        color: $green-color;
+
+        &__info {
+
+            &__name {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 100%;
+                text-transform: uppercase;
+                margin: 16px 0 6px 0;
+            }
+
+            &__rate {
+                display: flex;
+                gap: 16px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 100%;
+                margin-bottom: 24px;
+            }
+
+            &__price {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 100%;
+                text-transform: uppercase;
+            }
+        }
+
+        .hide-info-card1__active {
+            display: none;
+        }
+
+        &__new {
+            position: absolute;
+            top: 45px;
+            left: 0;
+            width: 67px;
+            height: 30px;
+            background-color: $green-color;
+            color: $white-color;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 8px;
+            z-index: 20;
+        }
+
+        &__sale {
+            background-color: #884F56;
+            position: absolute;
+            top: 45px;
+            left: 0;
+            width: 67px;
+            height: 30px;
+            color: $white-color;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 8px;
+
+        }
+
+        &__sold {
+            background-color: $orange-color;
+            position: absolute;
+            top: 45px;
+            left: 0;
+            width: 102px;
+            height: 30px;
+            color: $white-color;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 8px;
+        }
+
+        &__small {
+            display: none;
+        }
+
+        &__small-card {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 490px;
+            height: 377px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            &__size {
+                display: none;
+                position: absolute;
+                bottom: 33%;
+                left: 0;
+                padding: 20px 20px 0 20px;
+                width: 100%;
+                height: 114px;
+                background-color: rgb(80, 115, 95, 0.6);
+
+                &__wrapper {
+                    display: flex;
+                    gap: 160px;
+                    align-items: center;
+                    margin-bottom: 15px;
+                }
+
+                select {
+                    width: 100%;
+                    height: 48px;
+                    padding: 16px 18px 16px 12px;
+                    box-sizing: border-box;
+                    border: 1px solid $white-color;
+                    border-radius: 8px;
+                    background-color: $white-color !important;
+                    color: $green-color;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 140%;
+                    appearance: none;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    background: url('../icons/giftcard/arrowup.svg') no-repeat right 10px center;
+                    background-size: 24px;
+                    cursor: pointer;
+                }
+
+                &__return {
+                    transform: rotate(90deg);
+                    width: 20px;
+                    cursor: pointer;
+                }
+
+                &__title {
+                    color: $white-color;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 100%;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+            }
+
+            .shop__item__small-card__size__active {
+                display: block;
+            }
+
+            &__info {
+                display: none;
+                position: absolute;
+                left: 0;
+                bottom: 14%;
+                width: 100%;
+                height: 112px;
+                padding: 0 12px;
+                background-color: $white-color;
+
+                &__priceandcolor {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 14px;
+                    margin-bottom: 18px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 100%;
+                    text-transform: uppercase;
+                }
+
+                &__size {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 140%;
+                    margin-bottom: 4px;
+                }
+            }
+        }
+
+        .shop__item__small-card__info__active {
+            display: block;
+        }
+
+        .shop__item__small__active {
+            display: block;
+        }
+
+        &__button {
+            display: none;
+            position: absolute;
+            left: 0;
+            bottom: 33%;
+            width: 100%;
+            height: 50px;
+            background-color: $orange-color;
+            color: $white-color;
+            text-align: center;
+            padding-top: 17px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 100%;
+            cursor: pointer;
+        }
+
+        .shop__item__button__active {
+            display: block;
+        }
+
+        .shop__item__small-card__size__active {
+            display: block;
+        }
+
+
+        &__card1 {
+            position: relative;
+        }
+
+        &__img1 {
+            cursor: pointer;
+        }
+
+        &__card2 {
+            margin-top: 227px;
+        }
+
+        &__card5 {
+            margin-top: 240px;
+        }
+
+        &__card6 {
+            position: relative;
+        }
+
+        &__card10 {
+            position: relative;
+        }
+    }
+
+    &__item__wrapper {
+
+        &__first-block {
+            display: flex;
+            gap: 147px;
+        }
+
+        &__second-block {
+            display: flex;
+            gap: 40px;
+            margin-left: 30%;
+            margin-top: 120px;
+        }
+
+        &__third-block {
+            display: flex;
+            gap: 146px;
+            margin-top: 120px;
+        }
+
+        &__fourth-block {
+            display: flex;
+            gap: 40px;
+            margin-top: 120px;
+        }
+
+        &__fifth-block {
+            display: flex;
+            gap: 40px;
+        }
+
+        &__sixth-block {
+            display: flex;
+            margin-top: 120px;
+            margin-left: 50%;
+        }
+    }
+}

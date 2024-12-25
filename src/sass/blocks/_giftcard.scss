@@ -929,7 +929,6 @@
             &__item {
                 position: relative;
                 color: $green-color;
-                cursor: pointer;
 
                 &__title {
 
@@ -939,6 +938,23 @@
                     text-transform: uppercase;
                     margin-top: 16px;
                     margin-bottom: 5px;
+                }
+
+                &__new {
+                    position: absolute;
+                    top: 5%;
+                    left: 0;
+                    z-index: 20;
+                    width: 67px;
+                    height: 30px;
+                    background-color: $green-color;
+                    color: $white-color;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 100%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    padding-top: 8px;
                 }
 
                 &__rate {
@@ -959,16 +975,18 @@
                     font-weight: 400;
                     line-height: 100%;
                     text-transform: uppercase;
+                    cursor: pointer;
                 }
 
                 &__small {
-                    display: none;
+                    display: block;
                     position: absolute;
                     top: 0;
                     left: 0;
                     width: 100%;
 
                     &__quick-btn {
+                        display: none;
                         position: absolute;
                         left: 0;
                         bottom: 0;
@@ -981,7 +999,21 @@
                         padding-top: 15px;
                     }
 
+                    .reviews__rating__catalog__item__small__quick-btn__active {
+                        display: block;
+                    }
+
+                    &__img {
+                        width: 100%;
+                        display: none;
+                    }
+
+                    .reviews__rating__catalog__item__small__img__active {
+                        display: block;
+                    }
+
                     &__info {
+                        display: none;
                         position: absolute;
                         left: 0;
                         bottom: -30%;
@@ -1007,21 +1039,63 @@
                             line-height: 140%;
                         }
                     }
-                }
 
-                .reviews__rating__catalog__item__small__hiden {
-                    display: block;
+                    .reviews__rating__catalog__item__small__info__active {
+                        display: block;
+                    }
                 }
 
                 &__selectsize {
                     display: none;
                     position: absolute;
-                    bottom: 20%;
+                    bottom: calc(20% - 1px);
                     left: 0;
                     width: 100%;
                     height: 114px;
-                    background: $green-color;
-                    opacity: 0.6;
+                    background: linear-gradient(rgba(80, 115, 95, 0.6), rgba(80, 115, 95, 0.6));
+                    padding: 15px 0 0 18px;
+
+                    &__title {
+                        color: $white-color;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 100%;
+                        text-align: center;
+                        text-transform: uppercase;
+                        margin-bottom: 12px;
+                    }
+
+                    &__wrapper {
+                        display: flex;
+                        align-items: start;
+                        gap: 60px;
+
+                        img {
+                            transform: rotate(90deg);
+                            width: 19px;
+                            margin-bottom: 15px;
+                        }
+                    }
+
+                    select {
+                        width: 90%;
+                        height: 50%;
+                        padding: 15px 18px 16px 12px;
+                        box-sizing: border-box;
+                        border: 1px solid $white-color;
+                        border-radius: 8px;
+                        background-color: $white-color !important;
+                        color: $green-color;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 140%;
+                        appearance: none;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        background: url('../icons/giftcard/arrowup.svg') no-repeat right 10px center;
+                        background-size: 24px;
+                        cursor: pointer;
+                    }
                 }
 
                 .reviews__rating__catalog__item__selectsize__active {

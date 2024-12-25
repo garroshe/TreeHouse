@@ -30,6 +30,12 @@
         justify-content: center;
         margin-top: 48px;
         margin-bottom: 160px;
+
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+        }
     }
 
     &__treehouse {

@@ -198,19 +198,32 @@ StickySendButton.addEventListener('mouseleave', () => {
 
 
 const item1 = document.getElementById('item1');
-const catalogItem1 = document.querySelector('.catalog-item1');
-
-item1.addEventListener('click', () => {
-    catalogItem1.classList.toggle('reviews__rating__catalog__item__small__hiden');
-
-});
-
-
+const catalogImg1 = document.querySelector('.catalog-img1');
+const catalogInfo1 = document.querySelector('.catalog-info1');
 const addButton1 = document.querySelector('.add-button1');
 const selectsixe1 = document.querySelector('.selectsixe1');
 
+item1.addEventListener('click', () => {
+    catalogImg1.classList.add('reviews__rating__catalog__item__small__img__active');
+    catalogInfo1.classList.add('reviews__rating__catalog__item__small__info__active');
+    addButton1.classList.add('reviews__rating__catalog__item__small__quick-btn__active');
+});
+
+
 
 addButton1.addEventListener('click', () => {
+    addButton1.classList.remove('reviews__rating__catalog__item__small__quick-btn__active');
+    catalogInfo1.classList.remove('reviews__rating__catalog__item__small__info__active');
     selectsixe1.classList.add('reviews__rating__catalog__item__selectsize__active');
-    catalogItem1.classList.remove('reviews__rating__catalog__item__small__hiden');
+});
+
+const returnBackCatalog = document.querySelectorAll('.reviews__rating__catalog__item__selectsize__return');
+
+returnBackCatalog.forEach(element => {
+    element.addEventListener('click', () => {
+        addButton1.classList.remove('reviews__rating__catalog__item__small__quick-btn__active');
+        catalogInfo1.classList.remove('reviews__rating__catalog__item__small__info__active');
+        selectsixe1.classList.remove('reviews__rating__catalog__item__selectsize__active');
+        catalogImg1.classList.remove('reviews__rating__catalog__item__small__img__active');
+    });
 });
